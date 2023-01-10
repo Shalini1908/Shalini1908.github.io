@@ -1,38 +1,58 @@
+/* 
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap'); */
+ /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
 .App {
   text-align: center;
+  width: 100%;
+  /* font-family: 'Roboto Slab', serif; */
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Lora', serif;
+ 
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+.proj{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-top: 7%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.proj:hover{
+  border: "3px solid #1877f2";
+  /* background:black; */
+   background-image: linear-gradient( 359.4deg,  rgba(12,20,69,1) -6.9%, rgb(16, 134, 212) 109.9% ); 
+  transform: scale(1.07);
+  transition-property: transform;
+  transition-duration:1.5s;
+}
+ 
+.about{
+  
+  font-size:"30px";
+  /* margin-left:15%; */
+   margin-top: 20%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* .about img{
+  width: 70%;
+   
+
+} */
+
+input:placeholder-shown {
+
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:placeholder-shown:hover{
+  border: 2px solid #1877f2;
 }
