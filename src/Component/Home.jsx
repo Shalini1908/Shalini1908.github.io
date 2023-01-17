@@ -20,7 +20,7 @@ export default function Banner() {
       w={'full'}
       h={'100vh'}
       backgroundImage={
-        'url(https://shalini1908.github.io/static/media/lap4.25c28e0d857b03f7be42.png)'
+        'url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)'
       }
       backgroundSize={'cover'}
       backgroundColor={"black"}

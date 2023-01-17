@@ -9,7 +9,7 @@ const links = [
   { name: "Projects", id: "projects" },
   { name: "Skills", id: "skills" },
   { name: "Contact", id: "contact" },
-  { name: "Resume", id: "resume" }
+
 
 ];
 
@@ -79,7 +79,12 @@ useEffect(() => {
             
             ))}
         
-           
+        <Box   fontSize={["lg", "xl", "2xl"]}>
+                <a href="https://drive.google.com/file/d/1Gb5SF4CyuHrvZtjg0cJ2qlvyVqMO0Zo7/view?usp=sharing" target="_blank" rel="noreferrer"  >
+              
+                   <Text color={"#1877f2"}>Resume </Text>
+                </a>
+              </Box>
             </HStack>
           </HStack>
           <Flex alignItems={'center'} gap={2}>
@@ -99,11 +104,13 @@ useEffect(() => {
                 key={i}
                 to={link.id}
                 name={link.name}
+                
                 w="xm"
                 
                 onClick={() => onClose() }
               />
             ))}
+         
             </Stack>
             
           </Box>
