@@ -4,7 +4,7 @@ import {
   Button,
   Text,
   Box,
-  Code,
+
   VStack,
   IconButton,
   useBreakpointValue,
