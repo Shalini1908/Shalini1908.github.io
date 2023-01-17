@@ -1,27 +1,58 @@
-import React from 'react'
-import { Image,Flex , Button ,Box, Text , Container} from "@chakra-ui/react";
-// import LightSpeed from 'react-reveal/LightSpeed';
-import {FaLinkedin} from "react-icons/fa";
-import {AiFillGithub} from "react-icons/ai";
-
-import lap4 from "../images/lap4.png";
-import Typewriter from 'typewriter-effect';
-
-import "../Css/home.css";
-const Home = () => {
+import {
+  Stack,
+  Flex,
+  Button,
+  Text,
+  Box,
+  Code,
+  VStack,
+  IconButton,
+  useBreakpointValue,
+} from '@chakra-ui/react';
+import {AiFillGithub } from 'react-icons/ai'
+import {FaLinkedinIn} from 'react-icons/fa'
+ import Typewriter from 'typewriter-effect';
+ import Shalini_Singh_Resume from "../images/Shalini_Singh_Resume.pdf";
+ import { DownloadIcon } from "@chakra-ui/icons";
+export default function Banner() {
   return (
-    <div className='home' style={{margin:"auto"}} width={{ base: '100%', sm: '50%', md: '25%' }}>
-
-{/* <Flex mt={"50px"} w={['70vw' , '70vw' , '70vw']}
-direction ={['column' , 'column' ,'row' ]} justifyContent="space-between"> */}
-
-
-  <Image src={lap4}  w={["100%","100%","100%"]}  style={{backgroundColor:"black" , marginTop:"30px"}} />
-  <Container fontFamily="cursive"  color={"white"}  mt={"-25%"} ml={["20%" , "22%","60%"]}><Text fontSize={["xl" , "2xl" , "3xl"]}>Shalini Singh</Text></Container>
- 
-  <Box style={{color:"white" , fontFamily:"cursive" }} ml={["20%" , "22%","60%"]} fontSize={["xl" , "2xl" , "3xl"]}>
-
-<Typewriter
+    <Flex
+      w={'full'}
+      h={'100vh'}
+      backgroundImage={
+        'url(https://shalini1908.github.io/static/media/lap4.25c28e0d857b03f7be42.png)'
+      }
+      backgroundSize={'cover'}
+      backgroundColor={"black"}
+      backgroundPosition={'center center'}>
+      <VStack
+        w={'full'}
+        justify={'center'}
+        px={useBreakpointValue({ base: 4, md: 8 })}
+        bgGradient={'linear(to-r, blackAlpha.600, transparent)'}>
+        <Stack maxW={'2xl'} align={'center'} spacing={6}>
+          <Text
+            marginTop={["90px","100px","0px"]}
+            color={'white'}
+            fontWeight={500}
+             lineHeight={1.2}
+            fontSize={useBreakpointValue({ base: '4xl', md: '5xl'})}>
+          Hi, 
+          I'm Shalini Singh
+            
+          </Text>
+          {/* <Code
+          bgColor={'black'}
+          color={'white'}
+          fontSize={'2rem'}
+          >
+           <a href="#"><img src="https://readme-typing-svg.herokuapp.com?color=FFF&center=true&lines=Full+Stack+Web+Developer" ></img></a>
+          </Code> */}
+          <Box color={"white"} 
+           fontSize={["18px","24px","32px"]}
+           textAlign={["left","left","left"]}
+          fontWeight={"500"}> 
+           <Typewriter
 
   options={{
   strings: [
@@ -34,23 +65,41 @@ direction ={['column' , 'column' ,'row' ]} justifyContent="space-between"> */}
   deleteSpeed: 50,
   }}
   />
+  </Box>
+          <Stack direction={'row'}>
+            <IconButton
+            as='a'
+            href='https://github.com/Shalini1908'
+              // bg={'blue.400'}
+              // rounded={'full'}
+              color={'white'}
+              fontSize={"40px"}
+              target='_blank'
+             icon={<AiFillGithub />}/>
+            <IconButton
+            as='a'
+              // bg={'whiteAlpha.300'}
+              // rounded={'full'}
+              fontSize={"40px"}
 
-</Box>
-
-<Box  w={["xl","2xl" ,"3xl"]} marginTop={"10px"}>
- <Flex  ml={["30%" , "52%","138%"]} >
-
-<Box><a href="https://www.linkedin.com/in/shalini-singh-705277257/" alt=""><FaLinkedin color={"#4db5ff"} size={28}/></a></Box>
-
-<Box><a href="https://github.com/Shalini1908"><AiFillGithub color='white'  size={28} /></a> </Box>
-
-</Flex>
-</Box>
-<Button bg={"white"}  color={"#2c2c6c"} border={"1px solid #4db5ff"} fontSize={22} fontWeight={800} marginTop="40px" ml={["20%" , "22%","60%"]}>Resume</Button>
-</div>
-  )
+              color={'blue.400'}
+              href='https://www.linkedin.com/in/shalini-singh-705277257/'
+              target='_blank'
+             icon={<FaLinkedinIn/>}/>
+             
+          
+          </Stack>
+                <Box>
+                <a href={Shalini_Singh_Resume} download>
+                  <Button ml={["18px", "1%", "8px"]} mt="15px"  p={["15px 15px", "20px 20px", "25px 25px"]} fontSize={["md", "lg", "xl"]} bg="white" color="black" border="none" variant='solid' leftIcon={<DownloadIcon />} _hover={{
+    background: "#1877f2",
+    color: "black",
+  }}>
+                    Resume</Button>
+                </a>
+              </Box>
+        </Stack>
+      </VStack>
+  </Flex>
+);
 }
-
-export default Home
-
-

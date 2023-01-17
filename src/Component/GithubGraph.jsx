@@ -1,59 +1,61 @@
 import React from 'react';
-import {Image , Box} from "@chakra-ui/react";
+import {Image ,GridItem, Box,Heading,Text,Grid} from "@chakra-ui/react";
 import GitHubCalendar from 'react-github-calendar';
+import {FaGithub} from "react-icons/fa";
 
 // {
   
-// "green_nur" : [
-//   {
-//   background: "#0a1e17",
-//   border : "#e4e2e2",
-//   stroke :"#e4e2e2",
-//   ring :"#5affc8",
-//   fire : "#5affc8",
-//   currStreakNum : "#5affc8",
-//   sideNums : "#5affc8",
-//   currStreakLabel : "#5affc8",
-//   sideLabels :"#5affc8",
-//   dates : "#fff",
-//   }
-// ]
-// }
 
 const GithubGraph = () => {
   return (
-    <Box style={{ marginLeft:"6%" , marginTop:"10%",width:"90%"}} >
 
-<Image src="https://github-readme-activity-graph.cyclic.app/graph?username=Shalini1908&theme=gotham" alt="git" width={"89%"} ml={"5%"}/>
+<Box mt={["80px","50px","100px"]}>
+<Heading mr={["10%","0%","5%"]}  fontSize={["2xl", "3xl", "4xl"]} fontWeight="400" color={"#1877f2"}><Text ml={["","","10px"]} color={"#1877f2"}>My Github Stats</Text>
+<Text mt={"-48px"} marginLeft={["330px","500px","800px"]}  fontSize={["3xl", "4xl", "5xl"]} ><FaGithub color='#1877f2' className='bounce'/></Text>
+</Heading>
 
-{/* <Box  fontSize={"40px"} marginTop={"10%"} marginLeft={"55px"} width={"90%"}  border={"1px solid #1877f2"} borderRadius={"10px"} padding={10}>
-  <GitHubCalendar username="shalini1908" 
-  blockSize={30}
-  blockMargin={8}
-  />
-  </Box> */}
+<Box>
+  <Box display={["inline","inline","flex"]} width={"79%"}  margin={"auto"}>
 
-<Box border={"2px solid white"}
-         borderRadius={"10px"}
-          backgroundColor={"#0c1014"}
-           padding={10} 
-           color={"#1877f2"} 
-           margin={"auto"}
-           mt={"50px"}
-            width={"90%"}>
-
-       <GitHubCalendar  
-        username="Shalini1908"
-        blockSize={20}
-        blockMargin={6}
-        fontSize={20}
-        color={"#1877f2"}
-        
-       />
-       </Box>
+ <Image ml={["28px","20px","0px"]}  width={["85%","95%","50%"]} mt={["-30px","30px","30px"]} height={"300px"} src='https://github-readme-stats.vercel.app/api?username=Shalini1908&show_icons=true&locale=en&theme=gotham'/>
 
 
-    </Box>
+
+ <Image ml={["28px","20px","5px"]}  width={["85%","95%","50%"]} mt={["-100px","30px","30px"]} height={"300px"}src='https://github-readme-streak-stats.herokuapp.com/?user=Shalini1908&theme=gotham' />
+
+ </Box>
+   <Grid mt={"50px"} mb={"50px"}>
+   
+    <GridItem>
+    <Image  ml={["28px","20px","160px"]} mt={["-90px","-30px","-20px"]}  width={["85%","95%","78%"]} border={"1px solid white"} borderRadius={"10px"} src='https://github-readme-activity-graph.cyclic.app/graph?username=Shalini1908&theme=gotham'/> 
+    </GridItem>
+   
+    
+   </Grid>
+
+    
+     <Box border={"2px solid white"}
+     borderRadius={"10px"}
+      backgroundColor={"#282a36"}
+       padding={[6,8,10]} 
+       color={"#1877f2"} 
+       margin={"auto"}
+       textAlign={"left"}
+       mt={["-30px","-10px","30px"]}
+       fontSize={["12px","20px","20px"]}
+       ml={["28px","20px","160px"]}
+        width={["85%","95%","78%"]}>
+
+   <GitHubCalendar  
+    username="Shalini1908"
+    blockSize={20}
+    blockMargin={6} 
+    
+    color={"#1877f2"}
+   />
+   </Box>
+   </Box>
+   </Box>
    
   )
 }

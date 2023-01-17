@@ -1,38 +1,45 @@
+
+
 import React from 'react';
-import {Box , Container, Flex, Heading , Image } from "@chakra-ui/react";
-import Zoom from 'react-reveal/Zoom'; 
+ import {FaUser} from "react-icons/fa"
+// import Zoom from 'react-reveal/Zoom'; 
+import "../Css/about.css"
 import profile from "../images/profile.png";
-import LightSpeed from 'react-reveal/LightSpeed';
+ import LightSpeed from 'react-reveal/LightSpeed';
 
-const About = () => {
-  return (
-<Box className="about" id="about" ml={"10%"}>
-<Flex >
-{/* maxW="1000px" w={['70vw' , '70vw' , '70vw' , '90vw']}direction ={['column' , 'column' ,'row' , 'row']} */}
-<Box>
-  <Zoom>
-  <Image src={profile}  alt="profile" w={"80%"} style={{ marginLeft:"10%" , borderRadius:"50%"}}/>
-  </Zoom>
-  </Box>
-  
-<Container textAlign={"justify"} ml={"10px"}>
 
- <Heading ml={"150px"} color={"#4db5ff"} mt={"30px"} style={{fontFamily:"cursive"}}>About Me</Heading> 
 
-<LightSpeed right big>
-<p style={{width:"500px" , fontSize:"18px" , color:"white" , marginTop:"20px" , fontFamily: "cursive" , fontWeight:"300" , lineHeight:"35px"}}>
-Motivated and innovative aspiring full-stack web developer with
-hands-on experience in building websites with MERN stack and
-various web technologies including HTML, CSS and JS. As an
-individual like to challenge myself to push boundaries and discover
-innovative solutions as well as upgrading my skillset. Have
-experience of 1200 hours of coding.</p>
-</LightSpeed>
-</Container> 
-</Flex>
+import { Box,Image, Text } from "@chakra-ui/react";
+
+
+function About(){
     
+    return ( <Box id="about"  p="30px 0px"  pt="10px" mt={"4%"} h={["650px", "670px" ,"570px"]} >
+
+
+        <Box w="87%" m="auto" mt={"40px"} display={["inline", "inline", "flex"]} justifyContent="space-between" alignItems="center">
+        <Image w={["50%", "40%", "30%"]} marginTop={"50px"} ml={["100px","200px","70px"]} borderRadius={"50%"} src={profile} alt="img" />
+            <Box w={["90%", "90%", "40%"]} m="auto" >
+                <Box display={"flex"} gap={"15px"}ml={["110px","230px","92px"]}><Text textAlign="center"
+                  fontWeight="400" mt="20px" fontSize={["3xl", "4xl", "5xl"]} color={"#1877f2"}>About Me</Text><Text fontSize={["3xl", "4xl", "5xl"]} marginTop={"28px"}><FaUser className="bounce" color='#1877f2'/></Text></Box>
+                <Text fontFamily="Geneva" w={["90%", "90%", "90%"]}     mt={["7px","4px" ,"10px"]} ml={["20px","20px","2px"]} fontSize={["18px", "20px", "20px"]} textAlign={"center"}>
+                {/* <LightSpeed right big> */}
+                <LightSpeed right big>
+             <Text color={'white'}>Motivated and innovative aspiring full-stack web developer with hands-on experience in building websites with MERN stack and
+             various web technologies including HTML, CSS and JS. As an
+             individual like to challenge myself to push boundaries and discover
+            innovative solutions as well as upgrading my skillset. Have
+            experience of 1200 hours of coding.</Text></LightSpeed>
+            
+                </Text>
+            </Box>
+      
+        
+      
+        </Box>
     </Box>
-  )
+    )
 }
 
-export default About
+
+export default About;

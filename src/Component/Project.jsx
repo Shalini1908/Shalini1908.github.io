@@ -1,8 +1,5 @@
 import {Box , Image ,  Text ,  Button} from "@chakra-ui/react";
-// import project1 from "../images/project1.png";
-//  import project2 from "../images/project2.png";
-//  import project3 from "../images/project3.png";
-//  import project4 from "../images/project4.png"
+import {MdSlideshow} from "react-icons/md"
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
 
@@ -50,13 +47,17 @@ function Project(){
     }
   ]
 
-  return <Box id="project" className='project' w="full"  color="#ffffff" p="30px 0px" textAlign="center">
+  return <Box id="projects" className='project' w="full"  color="#ffffff" p="30px 0px" textAlign="center">
   <Box w="85%" m="auto">
-      <Text mb="25px" textAlign="center" fontWeight="400" fontSize={["3xl", "4xl", "5xl"]}>Projects</Text>
+   
+      <Box gap={"10px"} display={"flex"} mb="25px" textAlign="center" fontWeight="400" fontSize={["2xl", "3xl", "4xl"]}>
+        <Text ml={["120px","200px","490px"]} color={"#1877f2"}>Projects</Text>
+        <Text mt={["10px","10px","10px"]}><MdSlideshow className="bounce"  color={"#1877f2"}/></Text>
+        </Box>
       <Box display="grid" gap="50px" gridTemplateColumns= "repeat(1, 1fr)">
           {projectdata && projectdata.map((project)=> {
               return <Box className="proj" bg={"#0c1014"} >
-                          <Box display={["inline", "inline", "flex"]} justifyContent="space-between"  border={"1px solid #1877f2"} >
+                          <Box display={["inline", "inline", "flex"]} justifyContent="space-between"  border={"2px solid #1877f2"} >
                               <Image w={["100%", "97%", "60%"]} m="auto" src={project.img} alt="project-thumbnail" />
                               <Box w={["100%", "97%", "39%"]} m="auto">
                                   <Text fontSize={["2xl", "3xl", "4xl"]}>{project.name}</Text>
@@ -65,8 +66,8 @@ function Project(){
                                   <Text w="85%" m="auto" mt="10px" fontSize={["md", "mlgd", "xl"]}>Techstacks :-{project.techstack}</Text>
                                   <Box display="flex" w={["100%", "80%", "100%"]} m="auto" justifyContent="space-around">
                                      
-                                      <Button as='a' target='_blank' href={project.livelink} _hover={{color:"#blue"}} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]}  color="white"  border="1px solid white" variant='solid' leftIcon={<BiLinkExternal />}>Live</Button>
-                                      <Button as='a' target='_blank' href={project.gitlink} _hover={{color:"#blue"}} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]}  color="white" border="1px solid white" variant='solid' leftIcon={<BsGithub />}>Github</Button>
+                                      <Button as='a' target='_blank' href={project.livelink} _hover={{color:"blue"}} mt="10px" w={"100px"} p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]}  color="black"  border="1px solid white" variant='solid' leftIcon={<BiLinkExternal />}>Live</Button>
+                                      <Button as='a' target='_blank' href={project.gitlink} _hover={{color:"blue"}} mt="10px" w={"100px"} p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]}  color="black" border="1px solid white" variant='solid' leftIcon={<BsGithub />}>Github</Button>
                                   </Box>
                               </Box>
                           </Box>
@@ -79,5 +80,3 @@ function Project(){
 
 }
 export default Project
-
-

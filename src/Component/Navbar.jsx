@@ -1,17 +1,13 @@
 import  React , {useState , useEffect}from 'react';
-
 import {Box,Flex,HStack,IconButton,useDisclosure,Stack,Text} from '@chakra-ui/react';
-
 import { HamburgerIcon, CloseIcon, ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
  import NavLink from "../Component/Navlink"
 import { Link } from 'react-scroll';
 
-
-
 const links = [
   { name: "About", id: "about" },
+  { name: "Projects", id: "projects" },
   { name: "Skills", id: "skills" },
-  { name: "Project", id: "project" },
   { name: "Contact", id: "contact" },
   { name: "Resume", id: "resume" }
 
@@ -44,16 +40,17 @@ useEffect(() => {
     <>
 
 
-      <Box  zIndex={1} bg={isscroll? "#1877f2" : "black"} color={isscroll? "black" : "white"}  position={"fixed"} width={"100%"} marginTop={"-30px"}>
-      <Flex h={16} alignItems={'center'} justifyContent={'space-between'} >
+      <Box top={0} zIndex={1} bg={isscroll? "#1877f2" : "black"} fontWeight={isscroll? "600" : "400"}  color={isscroll? "black" : "#1877f2"}  position={"fixed"} width={"100%"}  justifyContent={"center"}>
+      <Flex h={16} alignItems={'center'}  gap={1}>
       <Link to="/">
-        <Text fontSize={"30px"} color={isscroll? "black" : "white"} ><ChevronLeftIcon color={isscroll? "red" : "white"} />Shalini<span color={isscroll? "red" : "black"} >/</span>
-        <ChevronRightIcon color={isscroll? "red" : "white"} /></Text>
+        <Flex>
+        <Text fontSize={["18px", "2xl", "3xl"]}  fontWeight={isscroll? "600" : "400"}  color={isscroll? "black" : "#1877f2"} ><ChevronLeftIcon color={isscroll? "red" : "#1877f2"}/>Shalini<span color={isscroll? "red" : "black"}>/</span>
+        <ChevronRightIcon color={isscroll? "red" : "#1877f2"} /></Text></Flex>
       </Link>
           <IconButton
-          ml={"60%"}
+          ml={"72%"}
             size={'md'}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+            icon={isOpen ? <CloseIcon /> : <HamburgerIcon color={"black"} />}
             aria-label={'Open Menu'}
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
@@ -63,20 +60,25 @@ useEffect(() => {
             <HStack
               as={'nav'}
               spacing={12}
-              ml={"42%"}
+              ml={"90%"}
               display={{ base: 'none', md: 'flex' }}>
             
             {links.map((link, i) => (
               <NavLink
+              
+              fontSize={["lg", "xl", "2xl"]}
+            
                 key={i}
                 to={link.id}
                 name={link.name}
-                fontSize={25}
+                // fontSize={25}
            
                 onClick={() => onClose()}
               />
+
             
             ))}
+        
            
             </HStack>
           </HStack>
@@ -88,9 +90,9 @@ useEffect(() => {
 
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }} 
-        
+          ml='200px'
           >
-            <Stack as={'nav'} spacing={4}  >
+            <Stack as={'nav'} spacing={4}   >
             {links.map((link, i) => (
               <NavLink
               
@@ -98,6 +100,7 @@ useEffect(() => {
                 to={link.id}
                 name={link.name}
                 w="xm"
+                
                 onClick={() => onClose() }
               />
             ))}
@@ -109,7 +112,6 @@ useEffect(() => {
         
       </Box>
 
-     
 </>
 );
 }

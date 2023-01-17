@@ -1,19 +1,10 @@
-/* 
- @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap'); */
- /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap'); */
- @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
 
 .App {
   text-align: center;
   width: 100%;
-  /* font-family: 'Roboto Slab', serif; */
-  /* font-family: 'Dancing Script', cursive; */
-  font-family: 'Lora', serif;
- 
-
 }
-
-
 
 
 .proj{
@@ -25,7 +16,7 @@
 
 .proj:hover{
   border: "3px solid #1877f2";
-  /* background:black; */
+ 
    background-image: linear-gradient( 359.4deg,  rgba(12,20,69,1) -6.9%, rgb(16, 134, 212) 109.9% ); 
   transform: scale(1.07);
   transition-property: transform;
@@ -35,16 +26,11 @@
 .about{
   
   font-size:"30px";
-  /* margin-left:15%; */
+
    margin-top: 20%;
 
 }
 
-/* .about img{
-  width: 70%;
-   
-
-} */
 
 input:placeholder-shown {
 
@@ -56,3 +42,15 @@ input:placeholder-shown {
 input:placeholder-shown:hover{
   border: 2px solid #1877f2;
 }
+
+textarea:placeholder-shown {
+
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea:placeholder-shown:hover{
+  border: 2px solid #1877f2;
+}
+
