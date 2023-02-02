@@ -4,9 +4,9 @@ const Loader = () => {
     return (
         <div style={{backgroundColor:"black"}}>
         <Load>
-            <span>&#x3c;</span>
-            <span>&#x2f;</span>
-            <span>&#x3e;</span>
+            <span style={{fontSize:"100px"}}>&#x3c;</span>
+            <span  style={{fontSize:"100px"}}>&#x2f;</span>
+            <span  style={{fontSize:"100px"}}>&#x3e;</span>
         </Load>
         </div>
     );

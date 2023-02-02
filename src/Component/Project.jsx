@@ -44,19 +44,28 @@ function Project(){
         techstack: "HTML, CSS, JavaScript,React,Chakra UI",
         livelink: "https://glittering-lamington-a7bf4c.netlify.app/",
         gitlink: "https://github.com/Shalini1908/daring-idea-7674"
+    },
+    {
+        name:"YouTube",
+        img:"https://user-images.githubusercontent.com/107534386/214225604-805f9f4e-1c5d-43d6-a4d5-d8bd19df7aeb.png",
+        type: "Individual",
+        desc: "Youtube App created by html , css and javascript, where user can search videos , see recommended videos and default videos also",
+        techstack: "HTML, CSS, JavaScript",
+        livelink: "https://youtube-lyart.vercel.app/",
+        gitlink: "https://github.com/Shalini1908/Youtube"
     }
   ]
 
   return <Box id="projects" className='project' w="full"  color="#ffffff" p="30px 0px" textAlign="center">
   <Box w="85%" m="auto">
    
-      <Box gap={"10px"} display={"flex"} mb="25px" textAlign="center" fontWeight="400" fontSize={["2xl", "3xl", "4xl"]}>
-        <Text ml={["120px","200px","490px"]} color={"#1877f2"}>Projects</Text>
-        <Text mt={["10px","10px","10px"]}><MdSlideshow className="bounce"  color={"#1877f2"}/></Text>
+      <Box gap={"10px"} display={"flex"} mb="25px" textAlign="center" fontWeight="400">
+        <Text ml={["110px","200px","490px"]} color={"#00b9e8"}fontSize={["3xl", "4xl", "5xl"]}>Projects</Text>
+        <Text mt={["8px","10px","15px"]}fontSize={["3xl", "4xl", "5xl"]} ><MdSlideshow className="bounce"  color={"#00b9e8"}/></Text>
         </Box>
       <Box display="grid" gap="50px" gridTemplateColumns= "repeat(1, 1fr)">
           {projectdata && projectdata.map((project)=> {
-              return <Box className="proj" bg={"#0c1014"} >
+              return <Box className="proj" bg={"#0c1014"}>
                           <Box display={["inline", "inline", "flex"]} justifyContent="space-between"  border={"2px solid #1877f2"} >
                               <Image w={["100%", "97%", "60%"]} m="auto" src={project.img} alt="project-thumbnail" />
                               <Box w={["100%", "97%", "39%"]} m="auto">

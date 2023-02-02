@@ -1,64 +1,338 @@
 
 
-import  React from 'react';
-import {TbBrandJavascript , TbBrandNextjs} from "react-icons/tb";
-import {FaHtml5 , FaCss3Alt, FaReact,FaBootstrap,FaNodeJs} from "react-icons/fa";
-import {SiTypescript , SiMongodb , SiRedux,SiChakraui,SiAdobephotoshop} from "react-icons/si"
-import {Box, Text,Container, Icon} from "@chakra-ui/react";
-// import photoshop from "../images/photoshop.png"
-import Pulse from 'react-reveal/Pulse';
+import React from "react";
 
+import {
+  Box,
+  Grid,
+  GridItem,
+  Image,
+  Heading,
+  Container,
+  Text,
+} from "@chakra-ui/react";
+// import "../styles/common.css"
+import {
+  FaHtml5,
+  FaReact,
+  FaJs,
+  FaNodeJs,
+  FaCss3,
 
-import RubberBand from 'react-reveal/RubberBand';
-// import { BiBorderRadius } from 'react-icons/bi';
+  FaBootstrap,
+} from "react-icons/fa";
+import { SlSettings } from "react-icons/sl";
+import photoshop from "../images/photoshop.png"
+import RubberBand from "react-reveal/RubberBand";
+import {
+  SiRedux,
+  SiMongodb,
+  SiExpress,
+  SiChakraui,
+
+  SiTypescript,
+} from "react-icons/si";
+
 const Skills = () => {
   return (
-  
-    <Box className="skills" border={"0px solid red"} id="skills"  fontSize={30} height={["500px","500px","550px"]}  bg={"1f1f38"} mt={["100px","100px","20px"]} w={["50%","60%","85%"]}  p="30px 0px" m={"auto"}>
-    <Box w="85%" m="auto">
-    <Text  color={"#1877f2"} mb="25px" ml={"-20px"}  fontWeight="400" fontSize={["2xl", "4xl", "4xl"]}>Technical Skills</Text>
+    <>
+      <Box marginTop={["100px", "150px", "200px"]}>
+        <Heading
+          mr={["10%", "10%", "0%"]}
+          fontWeight="400"
+          fontSize={["3xl", "4xl", "5xl"]}
+          fontFamily="Lora , serif"
+          color={"#00b9e8"}
+        >
+          Skills
+          <Text mt={["-38px","","-55px"]} marginLeft={["220px", "330px", "760px"]}>
+            <SlSettings className="bounce" color={"#00b9e8"} />
+          </Text>
+        </Heading>
+        <Box
+          className="skills"
+          border={"0px solid white"}
+          mt={"-12px"}
+          height={["400px", "500px", "500px"]}
+        >
+          <Container
+            w={["200px", "300px", "80%"]}
+            marginTop={["50px", "60px", "80px"]}
+            marginLeft={["50px", "80px", "400px"]}
+          >
+            <Grid
+              h="200px"
+              templateColumns={[
+                "repeat(4, 1fr)",
+                "repeat(4, 1fr)",
+                "repeat(4, 1fr)",
+              ]}
+              gap={["5px", "4px", "30px"]}
+            >
+              <GridItem
+                w={["100%", "100%", "90%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                border={"0px solid red"}
+                color="#e44f26"
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  {" "}
+                  <FaHtml5 color={"#e44f26"} />
+                </RubberBand>
 
-    <Box  display={"grid"} gap="5px" gridTemplateColumns={ "repeat(2,1fr) repeat(3,1fr)  repeat(4,fr)"} ml={["-122%","-7%","8%"]}> 
-    <Pulse>
-    <Container  marginTop={["5px","5px","5px"]}  ml={["180px","-45px","-40px"]} display={"flex"}  border={"0px solid white"} w={["65%","85%","100%"]}>
-    <Box w ={"30%"} h={["45px","80px","100px"]}  border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2} bg={"blackAlpha.400"}>
-    <RubberBand><Icon as={FaHtml5} color={"blue"} w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"}>
-    </Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]} color={"white"} fontSize={["xs","sm","md"]}>HTML</Text></Box>
-    <Box w ={"30%"} h={["45px","80px","100px"]}  border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2} bg={"blackAlpha.400"}><RubberBand><Icon as={FaCss3Alt} color={"#0070ba"} w={["50px" ,"90px","90px"]} margin={["2px" ,"6px" ,"16px"]} height={"60px"}></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]} color={"white"}  fontSize={["xs","sm","md"]}>CSS</Text></Box>
-    <Box w ={"30%"}  h={["45px","80px","100px"]}  border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2} bg={"blackAlpha.400"} ><RubberBand><Icon as={TbBrandJavascript} color={"#63a814"} w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"}></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]} color={"white"}  fontSize={["xs","sm","md"]}>Javascript</Text></Box>
-    <Box w ={"30%"} h={["45px","80px","100px"]}   border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2}  bg={"blackAlpha.400"} ><RubberBand><Icon as={FaReact} color={"#00d8ff"} w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"}></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]}  color={"white"}  fontSize={["xs","sm","md"]}>React</Text></Box>
-    </Container>
-    </Pulse>
-    
-    </Box>
+                <Text
+                  fontSize={["12px", "20px", "16px"]}
+                  mr={["10px", "20px", "20px"]}
+                  mt={"2px"}
+                >
+                  {" "}
+                  HTML
+                </Text>
+              </GridItem>
 
+              <GridItem
+                w={["100%", "100%", "90%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                color={"#0066b6"}
+                boxShadow={"base"}
+                mr={["5px", "30px", "0px"]}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  {" "}
+                  <FaCss3 color={"#0066b6"} />
+                </RubberBand>
+                <Text
+                  fontSize={["12px", "20px", "16px"]}
+                  mr={["5px", "30px", "0px"]}
+                  mt={"2px"}
+                >
+                  {" "}
+                  CSS
+                </Text>
+              </GridItem>
 
-    <Box display={"grid"} gap="5px"  marginTop={"10px"} gridTemplateColumns={ "repeat(2,1fr) repeat(3,1fr)  repeat(4,fr)"} ml={["-122%","-7%","8%"]}>
-    <Pulse>
-    <Container  marginTop={["35px","10px","5px"]} ml={["180px","-45px","-40px"]} display={"flex"} border={"0px solid white"} w={["65%","85%","100%"]}>
-    <Box w ={"30%"} h={["45px","80px","100px"]}  border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2}  bg={"blackAlpha.400"}><RubberBand><Icon as={TbBrandNextjs} color={"white"} w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"}></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]}  color={"white"}  fontSize={["xs","sm","md"]}>NextJS</Text></Box>
-    <Box w ={"30%"} h={["45px","80px","100px"]}   border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2}  bg={"blackAlpha.400"}><RubberBand><Icon as={SiTypescript} color={"#3178c6"} w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"}></Icon></RubberBand><Text marginTop={["3px","-16px","-29px"]}  color={"white"}  fontSize={["xs","sm","md"]}>Typescript</Text></Box>
-    <Box w ={"30%"} h={["45px","80px","100px"]}  border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2}  bg={"blackAlpha.400"} ><RubberBand><Icon as={SiRedux} color={"#7749bd"} w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"}></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]}  color={"white"}  fontSize={["xs","sm","md"]}>Redux</Text></Box>
-    <Box w ={"30%"} h={["45px","80px","100px"]}  border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2} bg={"blackAlpha.400"} ><RubberBand><Icon as={SiMongodb} color={"#439934"}w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"}></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]}  color={"white"}  fontSize={["xs","sm","md"]}>MongoDB</Text></Box>
-    </Container>
-    </Pulse>
-    </Box>
+              <GridItem
+                w={["100%", "100%", "90%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                color={"#e4d04b"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  <FaJs color={"#e4d04b"} />
+                </RubberBand>
+                <Text
+                  fontSize={["12px", "20px", "16px"]}
+                  mr={["5px", "50px", "0px"]}
+                  mt={"2px"}
+                >
+                  {" "}
+                  JS
+                </Text>
+              </GridItem>
 
-    <Box display={"grid"} gap="5px" marginTop={"10px"} gridTemplateColumns={ "repeat(2,1fr) repeat(3,1fr)  repeat(4,fr)"}  ml={["-122%","-7%","8%"]}>
-    <Pulse>
-    <Container   marginTop={["35px","10px","5px"]}ml={["180px","-40px","-40px"]} display={"flex"} border={"0px solid white"} w={["65%","85%","100%"]}>
-  <Box  w ={"30%"} h={["45px","80px","100px"]}   border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2}   bg={"blackAlpha.400"}><RubberBand><Icon as={FaBootstrap}  color={"#5e3b7f"} w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"}></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]} color={"white"} fontSize={["xs","sm","md"]}>Bootstrap</Text></Box>
-    <Box  w ={"30%"} h={["45px","80px","100px"]}    border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2}  bg={"blackAlpha.400"}><RubberBand><Icon as={FaNodeJs} color={"#8bc74b"}  w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"} ></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]}  color={"white"}  fontSize={["xs","sm","md"]}>NodeJS</Text></Box>
-    <Box  w ={"30%"} h={["45px","80px","100px"]}    border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2}  bg={"blackAlpha.400"}><RubberBand><Icon as={SiAdobephotoshop} color={"#001d34"}  w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"16px"]} height={"60px"} ></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]}  color={"white"}  fontSize={["xs","sm","md"]}>Photoshop</Text></Box>
-    <Box  w ={"30%"}  h={["45px","80px","100px"]}   border={["0px solid #1877f2","0px solid #1877f2","1px solid #1877f2"]} m={2} bg={"blackAlpha.400"} ><RubberBand><Icon as={SiChakraui} color={"#6ecbd0"} ml={"20px"} w={["50px" ,"90px","90px"]} margin={["2px" ,"5px" ,"14px"]} height={"60px"} ></Icon></RubberBand><Text marginTop={["3px","-18px","-29px"]}  color={"white"}  fontSize={["xs","sm","md"]}>ChakraUI</Text></Box>
-    </Container>
-    </Pulse>
-    </Box>
-    </Box> 
-    </Box>
-   
-   
-  )
-}
+              <GridItem
+                w={["100%", "100%", "90%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                color={"#00cdf2"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  {" "}
+                  <FaReact color={"#00cdf2"} />
+                </RubberBand>
+                <Text
+                  fontSize={["12px", "20px", "16px"]}
+                  mr={["5px", "20px", "0px"]}
+                  mt={"2px"}
+                >
+                  {" "}
+                  React
+                </Text>
+              </GridItem>
+
+              <GridItem
+                w={["100%", "80%", "70%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                color={"#48aaeb"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  {" "}
+                  <SiTypescript color={"#48aaeb"} fontSize={["50px","40px","70px"]} />
+                </RubberBand>
+                <Text
+                  fontSize={["12px", "20px", "16px"]}
+                  mr={["5px", "20px", "0px"]}
+                  mt={"2px"}
+                >
+                  {" "}
+                  Typescript
+                </Text>
+              </GridItem>
+
+              <GridItem
+                w={["100%", "100%", "90%"]}
+                fontSize={["60px", "60px", "80px"]}
+                
+                h="110"
+                color={"#679d5a"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  {" "}
+                  <FaNodeJs color={"#679d5a"} />
+                </RubberBand>
+                <Text
+                  fontSize={["12px", "20px", "16px"]}
+                  mr={["10px", "35px", "0px"]}
+                  mt={"2px"}
+                >
+                  NodeJs
+                </Text>
+              </GridItem>
+
+              <GridItem
+                w={["100%", "100%", "90%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                color={"#764abc"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  <SiRedux color={"#764abc"} />
+                </RubberBand>
+                <Text
+                  fontSize={["12px", "20px", "16px"]}
+                  mr={["5px", "20px", "0px"]}
+                  mt={"2px"}
+                >
+                  {" "}
+                  REDUX
+                </Text>
+              </GridItem>
+
+              <GridItem
+                w={["100%", "100%", "90%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                color={"#4ba13e"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  <SiMongodb color={"#4ba13e"} />
+                </RubberBand>
+                <Text
+                  fontSize={["11px", "20px", "16px"]}
+                  mr={["5px", "20px", "4px"]}
+                  mt={"2px"}
+                >
+                  MongoDb
+                </Text>
+              </GridItem>
+
+              <GridItem
+                w={["90%", "100%", "90%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                color={"#e4d04b"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  <SiExpress color={"#e4d04b"} />
+                </RubberBand>
+                <Text
+                  fontSize={["8px", "20px", "16px"]}
+                  mr={["0px", "20px", "0px"]}
+                  mt={["-5px","","2px"]}
+                >
+                  {" "}
+                  ExpressJS
+                </Text>
+              </GridItem>
+
+              <GridItem
+                w={["90%", "90%", "80%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                color={"grey"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  <Image src={photoshop}/>
+                </RubberBand>
+                <Text
+                textAlign={"center"}
+                  fontSize={["8px", "20px", "16px"]}
+                  mr={["0px", "20px", "0px"]}
+                  mt={"-5px"}
+                >
+                  Photoshop
+                </Text>
+              </GridItem>
+
+              <GridItem
+                w={["90%", "100%", "70%"]}
+                fontSize={["60px", "60px", "80px"]}
+                h="110"
+                color={"#7910f2"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  <FaBootstrap color={"#7910f2"} />
+                </RubberBand>
+                <Text
+                  fontSize={["8px", "20px", "16px"]}
+                  mr={["0px", "35px", "0px"]}
+                  mt={["-5px","","2px"]}
+                >
+                  {" "}
+                  Bootstrap
+                </Text>
+              </GridItem>
+
+              <GridItem
+                w={["90%", "90%", "70%"]}
+                fontSize={["60px", "50px", "70px"]}
+                h="110"
+                color={"#44bcb9"}
+                boxShadow={"base"}
+                fontWeight={"700"}
+              >
+                <RubberBand>
+                  <SiChakraui color={"#44bcb9"} />
+                </RubberBand>
+                <Text
+                  fontSize={["8px", "20px", "16px"]}
+                  mr={["-5px", "6px", "-2px"]}
+                  mt={["","","12px"]}
+                >
+                  {" "}
+                  ChakraUI
+                </Text>
+              </GridItem>
+            </Grid>
+          </Container>
+        </Box>
+      </Box>
+    </>
+  );
+};
 
 export default Skills;
