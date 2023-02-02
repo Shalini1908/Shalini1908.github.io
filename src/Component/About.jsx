@@ -57,7 +57,7 @@ function About() {
           >
             {/* <LightSpeed right big> */}
             <LightSpeed right big>
-              <Text color={"white"} lineHeight={"35px"}>
+              <Text color={"white"} lineHeight={"38px"}>
                 Motivated and innovative aspiring full-stack web developer with
                 hands-on experience in building websites with MERN stack and
                 various web technologies. Possessing experience of 1200+ hours

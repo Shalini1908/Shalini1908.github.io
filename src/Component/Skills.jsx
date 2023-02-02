@@ -108,7 +108,7 @@ const Skills = () => {
                 </RubberBand>
                 <Text
                   fontSize={["12px", "20px", "16px"]}
-                  mr={["5px", "30px", "0px"]}
+                  mr={["5px", "30px", "28px"]}
                   mt={"2px"}
                 >
                   {" "}
@@ -129,7 +129,7 @@ const Skills = () => {
                 </RubberBand>
                 <Text
                   fontSize={["12px", "20px", "16px"]}
-                  mr={["5px", "50px", "0px"]}
+                  mr={["5px", "50px", "20px"]}
                   mt={"2px"}
                 >
                   {" "}
@@ -151,7 +151,7 @@ const Skills = () => {
                 </RubberBand>
                 <Text
                   fontSize={["12px", "20px", "16px"]}
-                  mr={["5px", "20px", "0px"]}
+                  mr={["5px", "20px", "15px"]}
                   mt={"2px"}
                 >
                   {" "}
@@ -161,20 +161,22 @@ const Skills = () => {
 
               <GridItem
                 w={["100%", "80%", "70%"]}
-                fontSize={["60px", "60px", "80px"]}
+                mt={"7px"}
+                fontSize={["60px", "60px", "70px"]}
                 h="110"
                 color={"#48aaeb"}
+                ml={"8px"}
                 boxShadow={"base"}
                 fontWeight={"700"}
               >
                 <RubberBand>
                   {" "}
-                  <SiTypescript color={"#48aaeb"} fontSize={["50px","40px","70px"]} />
+                  <SiTypescript color={"#48aaeb"} />
                 </RubberBand>
                 <Text
                   fontSize={["12px", "20px", "16px"]}
                   mr={["5px", "20px", "0px"]}
-                  mt={"2px"}
+                  mt={"6px"}
                 >
                   {" "}
                   Typescript
@@ -196,7 +198,7 @@ const Skills = () => {
                 </RubberBand>
                 <Text
                   fontSize={["12px", "20px", "16px"]}
-                  mr={["10px", "35px", "0px"]}
+                  mr={["10px", "35px", "25px"]}
                   mt={"2px"}
                 >
                   NodeJs
@@ -216,11 +218,11 @@ const Skills = () => {
                 </RubberBand>
                 <Text
                   fontSize={["12px", "20px", "16px"]}
-                  mr={["5px", "20px", "0px"]}
+                  mr={["5px", "20px", "15px"]}
                   mt={"2px"}
                 >
                   {" "}
-                  REDUX
+                  Redux
                 </Text>
               </GridItem>
 
@@ -237,7 +239,7 @@ const Skills = () => {
                 </RubberBand>
                 <Text
                   fontSize={["11px", "20px", "16px"]}
-                  mr={["5px", "20px", "4px"]}
+                  mr={["5px", "20px", "14px"]}
                   mt={"2px"}
                 >
                   MongoDb
@@ -257,7 +259,7 @@ const Skills = () => {
                 </RubberBand>
                 <Text
                   fontSize={["8px", "20px", "16px"]}
-                  mr={["0px", "20px", "0px"]}
+                  mr={["0px", "20px", "21px"]}
                   mt={["-5px","","2px"]}
                 >
                   {" "}

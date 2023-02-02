@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavLink from "../Component/Navlink";
-
+import Shalini_Singh_Resume from "../images/Shalini-Singh-Resume.pdf";
 import { Link } from "react-scroll";
 
 const links = [
@@ -83,14 +83,29 @@ export default function Simple() {
               display={{ base: "none", md: "flex" }}
             >
             {links.map((link, i) => (
-            <NavLink
-             fontSize={["lg", "xl", "2xl"]}
-             key={i}
-             to={link.id}
-             name={link.name}
-             onClick={() => onClose()}
-                />
+              <>
+              {link.name==="Resume"?
+              <Text fontSize={["lg", "xl", "2xl"]} cursor={"pointer"}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1R3Tl9YQxLJC9n9J75845FFfPaJUc4Nuc/view?usp=sharing",
+                  "blank"
+                );
+              }}
+              href={Shalini_Singh_Resume}
+              
+              download="Shalini-Singh-Resume">{link.name}</Text> :
+              <NavLink
+
+              fontSize={["lg", "xl", "2xl"]}
+              key={i}
+              to={link.id}
+              name={link.name}
+              onClick={() => onClose()}
+                 />}
+          </>
               ))}
+              
             </HStack>
           </HStack>
           <Flex alignItems={"center"} gap={2}></Flex>
@@ -100,13 +115,26 @@ export default function Simple() {
           <Box pb={4} display={{ md: "none" }} ml="20px">
             <Stack as={"nav"} spacing={4}>
               {links.map((link, i) => (
+                 <>
+                     {link.name==="Resume"?
+                     <Text fontSize={["lg", "xl", "2xl"]} cursor={"pointer"}
+                     onClick={() => {
+                       window.open(
+                         "https://drive.google.com/file/d/1R3Tl9YQxLJC9n9J75845FFfPaJUc4Nuc/view?usp=sharing",
+                         "blank"
+                       );
+                     }}
+                     href={Shalini_Singh_Resume}
+                     
+                     download="Shalini-Singh-Resume">{link.name}</Text> :
                 <NavLink
                   key={i}
                   to={link.id}
                   name={link.name}
                   w="xm"
                   onClick={() => onClose()}
-                />
+                />}
+               </>
               ))}
             </Stack>
           </Box>

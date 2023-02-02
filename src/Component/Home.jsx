@@ -20,7 +20,7 @@ export default function Banner() {
       id="home" 
       h={"100vh"}
       backgroundImage={
-        "url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)"
+        "url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)"
       }
       backgroundSize={"cover"}
       backgroundColor={"black"}
@@ -83,7 +83,15 @@ export default function Banner() {
             />
           </Stack>
           <Box>
-            <a href={Shalini_Singh_Resume} download>
+            <a 
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1R3Tl9YQxLJC9n9J75845FFfPaJUc4Nuc/view?usp=sharing",
+                "blank"
+              );
+            }}
+            href={Shalini_Singh_Resume}
+            download="Shalini-Singh-Resume">
               <Button
                 ml={["5px", "2%", "8px"]}
                 mt={["-10px","20px",""]}
