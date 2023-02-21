@@ -8,15 +8,16 @@ import React from 'react';
 function Project(){
 
   let projectdata= [
-      {
-          name: "Survey Monkey",
-          img: "https://user-images.githubusercontent.com/107534386/211152786-b07c4005-8a8e-43eb-aacd-07e65fdaf267.png",
-          type: "Individual",
-          desc: "A clone of the Survey Monkey which is a survey website for Easily create surveys, quizzes, and polls for any audience",
-          techstack: "HTML, CSS",
-          livelink: "https://clinquant-choux-36c177.netlify.app/",
-          gitlink: "https://github.com/Shalini1908/-modest-invention-5857"
-      },
+
+    {
+        name: "WishKart",
+        img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
+        type: "Group",
+        desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
+        techstack: "React , Redux , JavaScript , Chakra UI, react-reveal",
+        livelink: "https://wish-kart.vercel.app/",
+        gitlink: "https://github.com/Rajendra3049/Wishkart"
+    },
       {
           name: "Bellavita",
           img: "https://user-images.githubusercontent.com/107534386/211152613-d4f2e55d-d491-47a7-bc91-21c791c819ec.png",
@@ -72,7 +73,7 @@ function Project(){
                                   <Text fontSize={["2xl", "3xl", "4xl"]}>{project.name}</Text>
                                   <Text fontSize={["xl", "2xl", "3xl"]}>( {project.type} )</Text>
                                   <Text  textAlign={"center"}  w={["100%", "90%", "70%"]} m="auto" fontSize={["sm", "md", "md"]}>{project.desc}</Text>
-                                  <Text w="85%" m="auto" mt="10px" fontSize={["md", "mlgd", "xl"]}>Techstacks :-{project.techstack}</Text>
+                                  <Text w="85%" m="auto" mt="10px" fontSize={["md", "mlgd", "lg"]}>Techstacks :-{project.techstack}</Text>
                                   <Box display="flex" w={["100%", "80%", "100%"]} m="auto" justifyContent="space-around">
                                      
                                       <Button as='a' target='_blank' href={project.livelink} _hover={{color:"blue"}} mt="10px" w={"100px"} p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]}  color="black"  border="1px solid white" variant='solid' leftIcon={<BiLinkExternal />}>Live</Button>

@@ -1,14 +1,12 @@
-
-
 import React from "react";
 
 import {
   Box,
   Grid,
   GridItem,
-  Image,
+
   Heading,
-  Container,
+
   Text,
 } from "@chakra-ui/react";
 // import "../styles/common.css"
@@ -18,319 +16,188 @@ import {
   FaJs,
   FaNodeJs,
   FaCss3,
-
   FaBootstrap,
 } from "react-icons/fa";
 import { SlSettings } from "react-icons/sl";
-import photoshop from "../images/photoshop.png"
+
 import RubberBand from "react-reveal/RubberBand";
 import {
   SiRedux,
   SiMongodb,
   SiExpress,
+  SiAdobephotoshop,
   SiChakraui,
-
   SiTypescript,
 } from "react-icons/si";
 
 const Skills = () => {
   return (
     <>
-      <Box marginTop={["100px", "150px", "200px"]}>
+      <Box marginTop={["170px", "150px", "200px"]}>
         <Heading
-          mr={["10%", "10%", "0%"]}
+          m={"auto"}
+          // mr={["10%", "10%", "0%"]}
+          display={"flex"}
+          justifyContent={"center"}
           fontWeight="400"
           fontSize={["3xl", "4xl", "5xl"]}
           fontFamily="Lora , serif"
           color={"#00b9e8"}
         >
-          Skills
-          <Text mt={["-38px","","-55px"]} marginLeft={["220px", "330px", "760px"]}>
+          <Text m={"10px"}>Skills</Text>
+          <Text m={"10px"} mt={"12px"}>
+            {" "}
             <SlSettings className="bounce" color={"#00b9e8"} />
           </Text>
         </Heading>
         <Box
           className="skills"
           border={"0px solid white"}
-          mt={"-12px"}
-          height={["400px", "500px", "500px"]}
+          mt={"30px"}
+      
         >
-          <Container
-            w={["200px", "300px", "80%"]}
-            marginTop={["50px", "60px", "80px"]}
-            marginLeft={["50px", "80px", "400px"]}
-          >
-            <Grid
-              h="200px"
-              templateColumns={[
-                "repeat(4, 1fr)",
-                "repeat(4, 1fr)",
-                "repeat(4, 1fr)",
-              ]}
-              gap={["5px", "4px", "30px"]}
-            >
-              <GridItem
-                w={["100%", "100%", "90%"]}
-                fontSize={["60px", "60px", "80px"]}
-                h="110"
-                border={"0px solid red"}
-                color="#e44f26"
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+       
+          <Grid border={"0px solid yellow"} templateColumns={[
+            "repeat(4, 1fr)",
+            "repeat(4, 1fr)",
+            "repeat(4, 1fr)",
+          ]}
+            w={["99%", "85%", "60%"]}
+            rowGap={"20px"}
+            padding={"10px"}
+            m={'auto'}>
+            <GridItem border={"0px solid white"} justifyContent={'center'} ml={["-10px","-34px","0px","0px"]} p={1}>
+              <Text border={"0px solid red"} fontSize={"95px"} w={["100%", "70%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
                 <RubberBand>
                   {" "}
                   <FaHtml5 color={"#e44f26"} />
                 </RubberBand>
+              </Text>
 
-                <Text
-                  fontSize={["12px", "20px", "16px"]}
-                  mr={["10px", "20px", "20px"]}
-                  mt={"2px"}
-                >
-                  {" "}
-                  HTML
-                </Text>
-              </GridItem>
+              <Text color={"#e44f26"} ml={["-12px","-20px","0px","0px","0px"]}> Html</Text>
+            </GridItem>
 
-              <GridItem
-                w={["100%", "100%", "90%"]}
-                fontSize={["60px", "60px", "80px"]}
-                h="110"
-                color={"#0066b6"}
-                boxShadow={"base"}
-                mr={["5px", "30px", "0px"]}
-                fontWeight={"700"}
-              >
+            <GridItem border={"0px solid white"} justifyContent={'center'}  p={1}>
+              <Text border={"0px solid red"} fontSize={"90px"} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
                 <RubberBand>
                   {" "}
                   <FaCss3 color={"#0066b6"} />
                 </RubberBand>
-                <Text
-                  fontSize={["12px", "20px", "16px"]}
-                  mr={["5px", "30px", "28px"]}
-                  mt={"2px"}
-                >
-                  {" "}
-                  CSS
-                </Text>
-              </GridItem>
+              </Text>
 
-              <GridItem
-                w={["100%", "100%", "90%"]}
-                fontSize={["60px", "60px", "80px"]}
-                h="110"
-                color={"#e4d04b"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+              <Text color={"#0066b6"}>Css</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'}  p={1}>
+              <Text border={"0px solid red"} fontSize={"90px"} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
                 <RubberBand>
+                  {" "}
                   <FaJs color={"#e4d04b"} />
                 </RubberBand>
-                <Text
-                  fontSize={["12px", "20px", "16px"]}
-                  mr={["5px", "50px", "20px"]}
-                  mt={"2px"}
-                >
-                  {" "}
-                  JS
-                </Text>
-              </GridItem>
+              </Text>
 
-              <GridItem
-                w={["100%", "100%", "90%"]}
-                fontSize={["60px", "60px", "80px"]}
-                h="110"
-                color={"#00cdf2"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+              <Text color={"#e4d04b"}>JavaScript</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'}  p={1}>
+              <Text border={"0px solid red"} fontSize={"90px"} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
                 <RubberBand>
                   {" "}
                   <FaReact color={"#00cdf2"} />
                 </RubberBand>
-                <Text
-                  fontSize={["12px", "20px", "16px"]}
-                  mr={["5px", "20px", "15px"]}
-                  mt={"2px"}
-                >
-                  {" "}
-                  React
-                </Text>
-              </GridItem>
+              </Text>
 
-              <GridItem
-                w={["100%", "80%", "70%"]}
-                mt={"7px"}
-                fontSize={["60px", "60px", "70px"]}
-                h="110"
-                color={"#48aaeb"}
-                ml={"8px"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+              <Text color={"#00cdf2"}>React</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'} ml={["0px","","","0px"]}  p={1}>
+              <Text border={"0px solid red"} fontSize={["75px", "70px", "70px", "80px"]} w={["100%", "90%", "80%", "60%", "36%"]} m={'auto'} mt={["10px","","",""]} textAlign={'center'}>
                 <RubberBand>
                   {" "}
                   <SiTypescript color={"#48aaeb"} />
                 </RubberBand>
-                <Text
-                  fontSize={["12px", "20px", "16px"]}
-                  mr={["5px", "20px", "0px"]}
-                  mt={"6px"}
-                >
-                  {" "}
-                  Typescript
-                </Text>
-              </GridItem>
+              </Text>
 
-              <GridItem
-                w={["100%", "100%", "90%"]}
-                fontSize={["60px", "60px", "80px"]}
-                
-                h="110"
-                color={"#679d5a"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+              <Text color={"#48aaeb"} mt={["5px","","","",""]} ml={["-15px","-40px","0px","0px"]}>Typescript</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'}  p={1}>
+              <Text border={"0px solid red"} fontSize={"90px"} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
                 <RubberBand>
                   {" "}
                   <FaNodeJs color={"#679d5a"} />
                 </RubberBand>
-                <Text
-                  fontSize={["12px", "20px", "16px"]}
-                  mr={["10px", "35px", "25px"]}
-                  mt={"2px"}
-                >
-                  NodeJs
-                </Text>
-              </GridItem>
+              </Text>
 
-              <GridItem
-                w={["100%", "100%", "90%"]}
-                fontSize={["60px", "60px", "80px"]}
-                h="110"
-                color={"#764abc"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+              <Text color={"#679d5a"}>Node JS</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'}  p={1}>
+              <Text border={"0px solid red"} fontSize={"90px"} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
                 <RubberBand>
+                  {" "}
                   <SiRedux color={"#764abc"} />
                 </RubberBand>
-                <Text
-                  fontSize={["12px", "20px", "16px"]}
-                  mr={["5px", "20px", "15px"]}
-                  mt={"2px"}
-                >
-                  {" "}
-                  Redux
-                </Text>
-              </GridItem>
+              </Text>
 
-              <GridItem
-                w={["100%", "100%", "90%"]}
-                fontSize={["60px", "60px", "80px"]}
-                h="110"
-                color={"#4ba13e"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+              <Text color={"#764abc"}>Redux</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'}  p={1}>
+              <Text border={"0px solid red"} fontSize={"90px"} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
                 <RubberBand>
+                  {" "}
                   <SiMongodb color={"#4ba13e"} />
                 </RubberBand>
-                <Text
-                  fontSize={["11px", "20px", "16px"]}
-                  mr={["5px", "20px", "14px"]}
-                  mt={"2px"}
-                >
-                  MongoDb
-                </Text>
-              </GridItem>
+              </Text>
 
-              <GridItem
-                w={["90%", "100%", "90%"]}
-                fontSize={["60px", "60px", "80px"]}
-                h="110"
-                color={"#e4d04b"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+              <Text color={"#4ba13e"}>MongoDB</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'}ml={["0px","0px","0px","14px"]}  p={1}>
+              <Text border={"0px solid red"} fontSize={["88px","","",""]} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
                 <RubberBand>
-                  <SiExpress color={"#e4d04b"} />
-                </RubberBand>
-                <Text
-                  fontSize={["8px", "20px", "16px"]}
-                  mr={["0px", "20px", "21px"]}
-                  mt={["-5px","","2px"]}
-                >
                   {" "}
-                  ExpressJS
-                </Text>
-              </GridItem>
-
-              <GridItem
-                w={["90%", "90%", "80%"]}
-                fontSize={["60px", "60px", "80px"]}
-                h="110"
-                color={"grey"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
-                <RubberBand>
-                  <Image src={photoshop}/>
+                  <SiExpress color={"#d7c447"} />
                 </RubberBand>
-                <Text
-                textAlign={"center"}
-                  fontSize={["8px", "20px", "16px"]}
-                  mr={["0px", "20px", "0px"]}
-                  mt={"-5px"}
-                >
-                  Photoshop
-                </Text>
-              </GridItem>
+              </Text>
 
-              <GridItem
-                w={["90%", "100%", "70%"]}
-                fontSize={["60px", "60px", "80px"]}
-                h="110"
-                color={"#7910f2"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+              <Text color={"#d7c447"}>Express JS</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'} ml={["10px","","",""]}  p={1}>
+              <Text border={"0px solid red"} fontSize={["78px", "80px", "70px", "80px"]} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} mt={["9px","","",""]}textAlign={'center'}>
                 <RubberBand>
+                  {" "}
+                  <SiAdobephotoshop color="#0070ba" />
+                </RubberBand>
+              </Text>
+
+              <Text color={"white"} ml={["-16px","-23px","0px","0px"]}>Photoshop</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'}  p={1}>
+              <Text border={"0px solid red"} fontSize={"90px"} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
+                <RubberBand>
+                  {" "}
                   <FaBootstrap color={"#7910f2"} />
                 </RubberBand>
-                <Text
-                  fontSize={["8px", "20px", "16px"]}
-                  mr={["0px", "35px", "0px"]}
-                  mt={["-5px","","2px"]}
-                >
-                  {" "}
-                  Bootstrap
-                </Text>
-              </GridItem>
+              </Text>
 
-              <GridItem
-                w={["90%", "90%", "70%"]}
-                fontSize={["60px", "50px", "70px"]}
-                h="110"
-                color={"#44bcb9"}
-                boxShadow={"base"}
-                fontWeight={"700"}
-              >
+              <Text color={"#7910f2"}>Bootstrap</Text>
+            </GridItem>
+
+            <GridItem border={"0px solid white"} justifyContent={'center'}  p={1}>
+              <Text border={"0px solid red"} fontSize={"90px"} w={["100%", "90%", "80%", "60%", "50%"]} m={'auto'} textAlign={'center'}>
                 <RubberBand>
+                  {" "}
                   <SiChakraui color={"#44bcb9"} />
                 </RubberBand>
-                <Text
-                  fontSize={["8px", "20px", "16px"]}
-                  mr={["-5px", "6px", "-2px"]}
-                  mt={["","","12px"]}
-                >
-                  {" "}
-                  ChakraUI
-                </Text>
-              </GridItem>
-            </Grid>
-          </Container>
+              </Text>
+
+              <Text color={"#44bcb9"} >Chakar UI</Text>
+            </GridItem>
+          </Grid>
         </Box>
       </Box>
     </>

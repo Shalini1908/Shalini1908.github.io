@@ -72,7 +72,7 @@ export default function Simple() {
             size={"sm"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon color={"black"} />}
             aria-label={"Open Menu"}
-            display={{ md: "none" }}
+            display={{ xl: "none" }}
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>

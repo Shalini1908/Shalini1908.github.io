@@ -61,7 +61,7 @@ function About() {
                 Motivated and innovative aspiring full-stack web developer with
                 hands-on experience in building websites with MERN stack and
                 various web technologies. Possessing experience of 1200+ hours
-                of coding. An individual who likes to challenge herself to push
+                of coding and solved more than 800+ DSA questions. An individual who likes to challenge herself to push
                 boundaries and discover innovative solutions to upgrade her
                 skillset.
               </Text>
