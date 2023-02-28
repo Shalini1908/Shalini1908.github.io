@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavLink from "../Component/Navlink";
-import Shalini_Singh_Resume from "../images/Shalini-Singh-Resume.pdf";
+import Resume from "../images/fw20_0377-Shalini-Singh-Resume.pdf";
 import { Link } from "react-scroll";
 
 const links = [
@@ -92,9 +92,9 @@ export default function Simple() {
                   "blank"
                 );
               }}
-              href={Shalini_Singh_Resume}
+              href={Resume}
               
-              download="Shalini-Singh-Resume">{link.name}</Text> :
+              download="fw20_0377-Shalini-Singh-Resume">{link.name}</Text> :
               <NavLink
 
               fontSize={["lg", "xl", "2xl"]}
@@ -124,9 +124,9 @@ export default function Simple() {
                          "blank"
                        );
                      }}
-                     href={Shalini_Singh_Resume}
+                     href={Resume}
                      
-                     download="Shalini-Singh-Resume">{link.name}</Text> :
+                     download="fw20_0377-Shalini-Singh-Resume">{link.name}</Text> :
                 <NavLink
                   key={i}
                   to={link.id}

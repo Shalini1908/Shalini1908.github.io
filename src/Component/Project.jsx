@@ -57,7 +57,7 @@ function Project(){
     }
   ]
 
-  return <Box id="projects" className='project' w="full"  color="#ffffff" p="30px 0px" textAlign="center">
+  return <Box id="projects" className='project' w="full"  color="#ffffff" p="30px 0px" textAlign="center" >
   <Box w="85%" m="auto">
    
       <Box gap={"10px"} display={"flex"} mb="25px" textAlign="center" fontWeight="400">
@@ -67,7 +67,7 @@ function Project(){
       <Box display="grid" gap="50px" gridTemplateColumns= "repeat(1, 1fr)">
           {projectdata && projectdata.map((project)=> {
               return <Box className="proj" bg={"#0c1014"}>
-                          <Box display={["inline", "inline", "flex"]} justifyContent="space-between"  border={"2px solid #1877f2"} >
+                          <Box display={["inline", "inline", "flex"]} justifyContent="space-between"  border={"3px solid #1877f2"} >
                               <Image w={["100%", "97%", "60%"]} m="auto" src={project.img} alt="project-thumbnail" />
                               <Box w={["100%", "97%", "39%"]} m="auto">
                                   <Text fontSize={["2xl", "3xl", "4xl"]}>{project.name}</Text>
