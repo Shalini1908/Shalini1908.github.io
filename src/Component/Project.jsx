@@ -10,6 +10,16 @@ function Project(){
   let projectdata= [
 
     {
+        name: "Trendsy",
+        img: "https://user-images.githubusercontent.com/107534386/221490495-b11efa2e-2992-497d-bf90-be48e22022c2.png",
+        type: "Group",
+        desc: "A clone of Myntra,Online Shopping Site for Fashion & Lifestyle.Fashion Expert brings you a variety lifestyle products.",
+        techstack: "React , Redux , JavaScript , Chakra UI, MongoDB , NodeJS , Express , Mongo Atlas",
+        livelink: "https://trendsy.vercel.app/",
+        gitlink: "https://github.com/Shalini1908/Trendsy-Myntra-Clone"
+    },
+
+    {
         name: "WishKart",
         img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
         type: "Group",
