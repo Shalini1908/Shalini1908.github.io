@@ -30,13 +30,13 @@ function Project() {
       gitlink: "https://github.com/Rajendra3049/Wishkart",
     },
     {
-      name: "Bellavita",
-      img: "https://user-images.githubusercontent.com/107534386/211152613-d4f2e55d-d491-47a7-bc91-21c791c819ec.png",
-      type: "Group",
-      desc: "This is a cloned website of Bellavita Organic , a digital first luxury yet affordable natural skincare brand in india",
-      techstack: "HTML ,CSS,JavaScript",
-      livelink: "https://sparkling-sable-5e1c8b.netlify.app/",
-      gitlink: "https://github.com/Rafayal383/dreary-hand-8237",
+      name: "Spotify",
+      img: "https://user-images.githubusercontent.com/107534386/232599543-c2c4284f-25d1-4646-a856-2fad3d2f5b51.png",
+      type: "Individual",
+      desc: "Music App , where users can listen to the playlist , with previous , pause and next features.",
+      techstack: "HTML, CSS, JavaScript",
+      livelink: "https://dashing-pony-d38a3e.netlify.app/",
+      gitlink: "https://github.com/Shalini1908/Spotify/tree/master",
     },
   ];
 
@@ -61,15 +61,27 @@ function Project() {
       livelink: "https://wish-kart.vercel.app/",
       gitlink: "https://github.com/Rajendra3049/Wishkart",
     },
+
     {
-      name: "Bellavita",
-      img: "https://user-images.githubusercontent.com/107534386/211152613-d4f2e55d-d491-47a7-bc91-21c791c819ec.png",
-      type: "Group",
-      desc: "This is a cloned website of Bellavita Organic , a digital first luxury yet affordable natural skincare brand in india",
-      techstack: "HTML ,CSS,JavaScript",
-      livelink: "https://sparkling-sable-5e1c8b.netlify.app/",
-      gitlink: "https://github.com/Rafayal383/dreary-hand-8237",
+      name: "Spotify",
+      img: "https://user-images.githubusercontent.com/107534386/232599543-c2c4284f-25d1-4646-a856-2fad3d2f5b51.png",
+      type: "Individual",
+      desc: "Music App , where users can listen to the playlist , with previous , pause and next features.",
+      techstack: "HTML, CSS, JavaScript",
+      livelink: "https://dashing-pony-d38a3e.netlify.app/",
+      gitlink: "https://github.com/Shalini1908/Spotify/tree/master",
     },
+
+    {
+      name: "YouTube",
+      img: "https://user-images.githubusercontent.com/107534386/214225604-805f9f4e-1c5d-43d6-a4d5-d8bd19df7aeb.png",
+      type: "Individual",
+      desc: "Youtube App created by html , css and javascript, where user can search videos , see recommended videos and default videos also",
+      techstack: "HTML, CSS, JavaScript",
+      livelink: "https://youtube-lyart.vercel.app/",
+      gitlink: "https://github.com/Shalini1908/Youtube",
+    },
+
     {
       name: "Crystalvillas",
       img: "https://user-images.githubusercontent.com/107534386/210261964-a5cb2fa2-1162-4ceb-bcb6-6229e8eb2448.png",
@@ -81,6 +93,15 @@ function Project() {
     },
 
     {
+      name: "Bellavita",
+      img: "https://user-images.githubusercontent.com/107534386/211152613-d4f2e55d-d491-47a7-bc91-21c791c819ec.png",
+      type: "Group",
+      desc: "This is a cloned website of Bellavita Organic , a digital first luxury yet affordable natural skincare brand in india",
+      techstack: "HTML ,CSS,JavaScript",
+      livelink: "https://sparkling-sable-5e1c8b.netlify.app/",
+      gitlink: "https://github.com/Rafayal383/dreary-hand-8237",
+    },
+    {
       name: "Bigbite",
       img: "https://user-images.githubusercontent.com/107534386/208698525-65d89ea4-3752-4277-957d-75a9efc64648.png",
       type: "Individual",
@@ -88,15 +109,6 @@ function Project() {
       techstack: "HTML, CSS, JavaScript,React,Chakra UI",
       livelink: "https://glittering-lamington-a7bf4c.netlify.app/",
       gitlink: "https://github.com/Shalini1908/daring-idea-7674",
-    },
-    {
-      name: "YouTube",
-      img: "https://user-images.githubusercontent.com/107534386/214225604-805f9f4e-1c5d-43d6-a4d5-d8bd19df7aeb.png",
-      type: "Individual",
-      desc: "Youtube App created by html , css and javascript, where user can search videos , see recommended videos and default videos also",
-      techstack: "HTML, CSS, JavaScript",
-      livelink: "https://youtube-lyart.vercel.app/",
-      gitlink: "https://github.com/Shalini1908/Youtube",
     },
   ];
 
