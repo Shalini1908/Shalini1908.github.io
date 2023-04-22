@@ -38,6 +38,16 @@ function Project() {
       livelink: "https://dashing-pony-d38a3e.netlify.app/",
       gitlink: "https://github.com/Shalini1908/Spotify/tree/master",
     },
+
+    {
+      name: "Netflix",
+      img: "https://user-images.githubusercontent.com/107534386/233796144-e226efee-457a-4eb0-a9d0-d0d1986593f0.png",
+      type: "Individual",
+      desc: "Movie App , It is a Netflix Clone , where user can find movies , sort the movies as per their ratings and search their favourite movies.",
+      techstack: "HTML, CSS, JavaScript , OMDB-Api",
+      livelink: "https://courageous-macaron-4af75e.netlify.app/",
+      gitlink: "https://github.com/Shalini1908/Netflix/tree/master",
+    },
   ];
 
   let projectdata = [
@@ -71,6 +81,17 @@ function Project() {
       livelink: "https://dashing-pony-d38a3e.netlify.app/",
       gitlink: "https://github.com/Shalini1908/Spotify/tree/master",
     },
+
+    {
+      name: "Netflix",
+      img: "https://user-images.githubusercontent.com/107534386/233796144-e226efee-457a-4eb0-a9d0-d0d1986593f0.png",
+      type: "Individual",
+      desc: "Movie App , It is a Netflix Clone , where user can find movies , sort the movies as per their ratings and search their favourite movies.",
+      techstack: "HTML, CSS, JavaScript , OMDB-Api",
+      livelink: "https://courageous-macaron-4af75e.netlify.app/",
+      gitlink: "https://github.com/Shalini1908/Netflix/tree/master",
+    },
+
 
     {
       name: "YouTube",
