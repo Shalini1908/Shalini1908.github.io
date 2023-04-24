@@ -30,13 +30,13 @@ function Project() {
       gitlink: "https://github.com/Rajendra3049/Wishkart",
     },
     {
-      name: "Spotify",
-      img: "https://user-images.githubusercontent.com/107534386/232599543-c2c4284f-25d1-4646-a856-2fad3d2f5b51.png",
+      name: "MixMate",
+      img: "https://user-images.githubusercontent.com/107534386/233964929-968a41d8-3d98-4f7d-a4a5-7b95ca566ccf.png",
       type: "Individual",
       desc: "Music App , where users can listen to the playlist , with previous , pause and next features.",
       techstack: "HTML, CSS, JavaScript",
-      livelink: "https://dashing-pony-d38a3e.netlify.app/",
-      gitlink: "https://github.com/Shalini1908/Spotify/tree/master",
+      livelink: "https://tangerine-rugelach-03a25a.netlify.app/",
+      gitlink: "https://github.com/Shalini1908/MixMate/tree/master",
     },
 
     {
@@ -73,13 +73,13 @@ function Project() {
     },
 
     {
-      name: "Spotify",
-      img: "https://user-images.githubusercontent.com/107534386/232599543-c2c4284f-25d1-4646-a856-2fad3d2f5b51.png",
+      name: "MixMate",
+      img: "https://user-images.githubusercontent.com/107534386/233964929-968a41d8-3d98-4f7d-a4a5-7b95ca566ccf.png",
       type: "Individual",
       desc: "Music App , where users can listen to the playlist , with previous , pause and next features.",
       techstack: "HTML, CSS, JavaScript",
-      livelink: "https://dashing-pony-d38a3e.netlify.app/",
-      gitlink: "https://github.com/Shalini1908/Spotify/tree/master",
+      livelink: "https://tangerine-rugelach-03a25a.netlify.app/",
+      gitlink: "https://github.com/Shalini1908/MixMate/tree/master",
     },
 
     {
