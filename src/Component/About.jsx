@@ -27,7 +27,7 @@ function About() {
         <Image
           w={["50%", "40%", "28%"]}
           marginTop={"50px"}
-          ml={["100px", "230px", "70px"]}
+          ml={["100px", "190px", "70px"]}
           borderRadius={"16%"}
           src={profile_img}
           alt="img"
@@ -57,14 +57,18 @@ function About() {
           >
             {/* <LightSpeed right big> */}
             <LightSpeed right big>
-              <Text color={"white"} lineHeight={"38px"}>
-                Motivated and innovative aspiring full-stack web developer with
+             
+              <p style={{color:"white",lineHeight:"38px",  textAlign:"justify",width:"550px"}}>
+                Motivated and innovativating full-stack web developer with
                 hands-on experience in building websites with MERN stack and
-                various web technologies. Possessing experience of 1200+ hours
-                of coding and solved more than 800+ DSA questions. An individual who likes to challenge herself to push
-                boundaries and discover innovative solutions to upgrade her
-                skillset.
-              </Text>
+                various web technologies. I am passionate about staying
+                up-to-date with the latest technologies and techniques in
+                software development. I started learning Web Development in 2019
+                , for of full stack web development I joined Masai School.
+                Possessing experience of 1200+ hours of coding and solved more
+                than 950+ DSA questions.
+              </p>
+           
             </LightSpeed>
           </Text>
         </Box>
