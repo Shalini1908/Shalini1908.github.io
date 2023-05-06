@@ -51,7 +51,7 @@ export default function Simple() {
         fontWeight={isscroll ? "600" : "400"}
         color={isscroll ? "black" : "#00b9e8"}
         position={"fixed"}
-       width={"100%"}
+        width={"100%"}
         justifyContent={"center"}
       >
         <Flex h={16} alignItems={"center"} gap={1}>
