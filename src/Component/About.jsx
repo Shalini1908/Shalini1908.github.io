@@ -58,16 +58,21 @@ function About() {
             {/* <LightSpeed right big> */}
             <LightSpeed right big>
              
-              <p style={{color:"white",lineHeight:"38px",  textAlign:"justify",width:"420px" , height:"415px"}}>
-                Motivated and innovativating full-stack web developer with
+              <Text color={"white"} textAlign={"justify"} lineHeight={"35px"}>
+                {/* Motivated and innovativating full-stack web developer with
                 hands-on experience in building websites with MERN stack and
-                various web technologies. I am passionate about staying
-                up-to-date with the latest technologies and techniques in
-                software development. I started learning Web Development in 2019
-                , for of full stack web development I joined Masai School.
-                Possessing experience of 1200+ hours of coding and solved more
-                than 950+ DSA questions.
-              </p>
+                various web technologies.Possessing experience of 1200+ hours
+                of coding and solved more than 950+ DSA questions. */}
+
+Motivated and innovativating full-stack web developer with
+hands-on experience in building websites with MERN stack and
+various web technologies. I am passionate about staying
+up-to-date with the latest technologies and techniques in
+software development. I started learning Web Development in 2019
+, for of full stack web development I joined Masai School.
+Possessing experience of 1200+ hours of coding and solved more
+than 950+ DSA questions.
+              </Text>
            
             </LightSpeed>
           </Text>
@@ -78,3 +83,5 @@ function About() {
 }
 
 export default About;
+
+
