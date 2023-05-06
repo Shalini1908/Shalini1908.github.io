@@ -69,7 +69,7 @@ hands-on experience in building websites with MERN stack and
 various web technologies. I am passionate about staying
 up-to-date with the latest technologies and techniques in
 software development. I started learning Web Development in 2019
-, for of full stack web development I joined Masai School.
+, for full stack web development I joined Masai School.
 Possessing experience of 1200+ hours of coding and solved more
 than 950+ DSA questions.
               </Text>
