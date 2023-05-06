@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.dc1498c4.css",
-    "main.js": "/static/js/main.48103fcd.js",
+    "main.js": "/static/js/main.8c66d081.js",
     "static/media/profile_img.png": "/static/media/profile_img.37edc58ca2ac8c30a77c.png",
     "static/media/fw20_0377-Shalini-Singh-Resume.pdf": "/static/media/fw20_0377-Shalini-Singh-Resume.a5965646a6b452d6dc05.pdf",
     "index.html": "/index.html",
     "main.dc1498c4.css.map": "/static/css/main.dc1498c4.css.map",
-    "main.48103fcd.js.map": "/static/js/main.48103fcd.js.map"
+    "main.8c66d081.js.map": "/static/js/main.8c66d081.js.map"
   },
   "entrypoints": [
     "static/css/main.dc1498c4.css",
-    "static/js/main.48103fcd.js"
+    "static/js/main.8c66d081.js"
   ]
 }
