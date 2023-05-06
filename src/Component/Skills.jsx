@@ -33,7 +33,7 @@ import {
 const Skills = () => {
   return (
     <>
-      <Box marginTop={["170px", "150px", "200px"]}>
+      <Box marginTop={["200px", "150px", "200px"]}>
         <Heading
           m={"auto"}
           // mr={["10%", "10%", "0%"]}
@@ -44,8 +44,8 @@ const Skills = () => {
           fontFamily="Lora , serif"
           color={"#00b9e8"}
         >
-          <Text m={"10px"}>Skills</Text>
-          <Text m={"10px"} mt={"12px"}>
+          <Text m={"15px"}>Skills</Text>
+          <Text m={"10px"} mt={"15px"}>
             {" "}
             <SlSettings className="bounce" color={"#00b9e8"} />
           </Text>

@@ -58,7 +58,7 @@ function About() {
             {/* <LightSpeed right big> */}
             <LightSpeed right big>
              
-              <Text color={"white"} textAlign={"justify"} lineHeight={"35px"}>
+              <Text color={"white"} textAlign={"justify"} lineHeight={"34px"} w={["305px","465px", "375px","450px"]}>
                 {/* Motivated and innovativating full-stack web developer with
                 hands-on experience in building websites with MERN stack and
                 various web technologies.Possessing experience of 1200+ hours
