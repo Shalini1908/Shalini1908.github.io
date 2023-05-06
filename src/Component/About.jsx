@@ -58,7 +58,7 @@ function About() {
             {/* <LightSpeed right big> */}
             <LightSpeed right big>
              
-              <p style={{color:"white",lineHeight:"38px",  textAlign:"justify",width:"550px"}}>
+              <p style={{color:"white",lineHeight:"38px",  textAlign:"justify",width:"420px" , height:"415px"}}>
                 Motivated and innovativating full-stack web developer with
                 hands-on experience in building websites with MERN stack and
                 various web technologies. I am passionate about staying
