@@ -33,7 +33,7 @@ import {
 const Skills = () => {
   return (
     <>
-      <Box marginTop={["200px", "150px", "200px"]}>
+      <Box marginTop={["250px", "150px", "200px"]}>
         <Heading
           m={"auto"}
           // mr={["10%", "10%", "0%"]}
