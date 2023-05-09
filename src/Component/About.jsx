@@ -82,9 +82,3 @@ function About() {
 
 export default About;
 
-{
-  /* Motivated and innovativating full-stack web developer with
-                hands-on experience in building websites with MERN stack and
-                various web technologies.Possessing experience of 1200+ hours
-                of coding and solved more than 950+ DSA questions. */
-}
