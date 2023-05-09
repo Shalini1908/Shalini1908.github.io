@@ -64,7 +64,7 @@ function About() {
                 various web technologies.Possessing experience of 1200+ hours
                 of coding and solved more than 950+ DSA questions. */}
 
-Motivated and innovativating full-stack web developer with
+Motivated and innovating full-stack web developer with
 hands-on experience in building websites with MERN stack and
 various web technologies. I am passionate about staying
 up-to-date with the latest technologies and techniques in
