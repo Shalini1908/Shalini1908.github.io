@@ -57,23 +57,20 @@ function About() {
           >
             {/* <LightSpeed right big> */}
             <LightSpeed right big>
-             
-              <Text color={"white"} textAlign={"justify"} lineHeight={"34px"} w={["305px","465px", "375px","450px"]}>
-                {/* Motivated and innovativating full-stack web developer with
-                hands-on experience in building websites with MERN stack and
-                various web technologies.Possessing experience of 1200+ hours
-                of coding and solved more than 950+ DSA questions. */}
-
-Motivated and innovating full-stack web developer with
-hands-on experience in building websites with MERN stack and
-various web technologies. I am passionate about staying
-up-to-date with the latest technologies and techniques in
-software development. I started learning Web Development in 2019
-, for full stack web development I joined Masai School.
-Possessing experience of 1200+ hours of coding and solved more
-than 950+ DSA questions.
+              <Text
+                color={"white"}
+                textAlign={"justify"}
+                lineHeight={"34px"}
+                w={["305px", "465px", "375px", "450px"]}
+              >
+                Motivated and innovating full-stack web developer with hands-on
+                experience in building websites with MERN stack and various web
+                technologies. I am passionate about staying up-to-date with the
+                latest technologies and techniques in software development. I
+                started learning Web Development in 2019 , for full stack web
+                development I joined Masai School. Possessing experience of
+                1200+ hours of coding and solved more than 950+ DSA questions.
               </Text>
-           
             </LightSpeed>
           </Text>
         </Box>
@@ -84,4 +81,9 @@ than 950+ DSA questions.
 
 export default About;
 
-
+{
+  /* Motivated and innovativating full-stack web developer with
+                hands-on experience in building websites with MERN stack and
+                various web technologies.Possessing experience of 1200+ hours
+                of coding and solved more than 950+ DSA questions. */
+}
