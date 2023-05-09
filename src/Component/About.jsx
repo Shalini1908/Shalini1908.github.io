@@ -70,6 +70,7 @@ function About() {
                 started learning Web Development in 2019 , for full stack web
                 development I joined Masai School. Possessing experience of
                 1200+ hours of coding and solved more than 950+ DSA questions.
+                
               </Text>
             </LightSpeed>
           </Text>
