@@ -31,7 +31,7 @@ useEffect(() => {
 return isLoading ? (
     <Loader />
 ) : (
-  <div className="App"  w={'100%'} style={{backgroundColor:"black"}}>
+  <div className="App" style={{backgroundColor:"black",width:"100%"}}>
 {/* width={{ base: '100%', sm: '50%', md: '25%'}}  */}
 <Simple/>
  <Home/>

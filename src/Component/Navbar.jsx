@@ -46,6 +46,8 @@ export default function Simple() {
     <>
       <Box
         top={0}
+        m={0}
+        p={0}
         zIndex={1}
         bg={isscroll ? "#00b9e8" : "black"}
         fontWeight={isscroll ? "600" : "400"}
