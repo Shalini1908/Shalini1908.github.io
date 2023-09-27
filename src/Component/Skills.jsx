@@ -23,40 +23,44 @@ import {
   SiPostgresql,
   SiGraphql,
   SiRedis,
-  SiSocketdotio
+  SiSocketdotio,
 } from "react-icons/si";
 import { Image } from "@chakra-ui/react";
-import liquibase from  "../images/Liquibase.png"
-import sequelize from  "../images/sequelize.png"
-import sql from "../images/sql.png"
+import liquibase from "../images/Liquibase.png";
+import sequelize from "../images/sequelize.png";
+import sql from "../images/sql.png";
 
 const Skills = () => {
   return (
     <>
-       <Box marginTop={["250px", "150px", "150px"]}>
-      <Heading
-        m="auto"
-        display="flex"
-        justifyContent="center"
-        fontWeight="400"
-        fontSize={["3xl", "4xl", "5xl"]}
-        fontFamily="Lora, serif"
-        color="#00b9e8"
-      >
-        <Text m="15px">Skills</Text>
-        <Text m="10px" mt="15px">
-          {" "}
-          <SlSettings className="bounce" color="#00b9e8" />
-        </Text>
-      </Heading>
-      <Box className="skills" border="0px solid white" mt="30px">
-        <Grid
-          templateColumns={["repeat(2, 1fr)", "repeat(3, 1fr)", "repeat(4, 1fr)"]}
-          w={["99%", "85%", "60%"]}
-          rowGap="20px"
-          padding="10px"
+      <Box marginTop={["250px", "150px", "150px"]}>
+        <Heading
           m="auto"
+          display="flex"
+          justifyContent="center"
+          fontWeight="400"
+          fontSize={["3xl", "4xl", "5xl"]}
+          fontFamily="Lora, serif"
+          color="#00b9e8"
         >
+          <Text m="15px">Skills</Text>
+          <Text m="10px" mt="15px">
+            {" "}
+            <SlSettings className="bounce" color="#00b9e8" />
+          </Text>
+        </Heading>
+        <Box className="skills" border="0px solid white" mt="30px">
+          <Grid
+            templateColumns={[
+              "repeat(2, 1fr)",
+              "repeat(3, 1fr)",
+              "repeat(4, 1fr)",
+            ]}
+            w={["99%", "85%", "60%"]}
+            rowGap="20px"
+            padding="10px"
+            m="auto"
+          >
             <GridItem
               border={"0px solid white"}
               justifyContent={"center"}
@@ -343,7 +347,7 @@ const Skills = () => {
                 <RubberBand>
                   {" "}
                   {/* <PiFileSql color={"#172b4d"} /> */}
-                  <Image src={sql} width={"95px"}/>
+                  <Image src={sql} width={"95px"} />
                 </RubberBand>
               </Text>
 
@@ -424,7 +428,7 @@ const Skills = () => {
                 <RubberBand>
                   {" "}
                   {/* <SiGraphql color={"#e10098"} /> */}
-                  <Image src={sequelize} w={"95px"}/>
+                  <Image src={sequelize} w={"95px"} />
                 </RubberBand>
               </Text>
 
@@ -485,14 +489,12 @@ const Skills = () => {
                 <RubberBand>
                   {" "}
                   {/* <SiLiquibase color={"#e10098"} /> */}
-                  <Image src ={liquibase} width={"95px"} margin={"auto"}/>
+                  <Image src={liquibase} width={"95px"} margin={"auto"} />
                 </RubberBand>
               </Text>
 
               <Text color={"#ff3c00"}>Liquibase</Text>
             </GridItem>
-          
-          
           </Grid>
         </Box>
       </Box>

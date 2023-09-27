@@ -25,7 +25,8 @@ function Project() {
       img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
       type: "Group",
       desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
-      techstack:"HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal", 
+      techstack:
+        "HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal",
       livelink: "https://wish-kart.vercel.app/",
       gitlink: "https://github.com/Rajendra3049/Wishkart",
     },
@@ -67,7 +68,8 @@ function Project() {
       img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
       type: "Group",
       desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
-      techstack:"HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal", 
+      techstack:
+        "HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal",
       livelink: "https://wish-kart.vercel.app/",
       gitlink: "https://github.com/Rajendra3049/Wishkart",
     },
@@ -91,7 +93,6 @@ function Project() {
       livelink: "https://courageous-macaron-4af75e.netlify.app/",
       gitlink: "https://github.com/Shalini1908/Netflix/tree/master",
     },
-
 
     {
       name: "YouTube",
@@ -142,7 +143,7 @@ function Project() {
         color="#ffffff"
         p="30px 0px"
         textAlign="center"
-        marginTop={["0","0","0","150px"]}
+        marginTop={["0", "0", "0", "150px"]}
       >
         <Box w="85%" m="auto">
           <Box

@@ -1,7 +1,7 @@
 import React from "react";
-import { Image, GridItem, Box, Heading, Text, Grid } from "@chakra-ui/react";
+import { Image, Box, Heading, Text } from "@chakra-ui/react";
 import GitHubCalendar from "react-github-calendar";
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 
 // {
 
@@ -18,10 +18,9 @@ const GithubGraph = () => {
           My Github Stats
         </Text>
         <Text
-          mt={["-34px","-42px","-49px"]}
-          marginLeft={["325px", "370px", "550px","785px"]}
-
-          fontSize={["3xl", "4xl", "5xl"]} 
+          mt={["-34px", "-42px", "-49px"]}
+          marginLeft={["325px", "370px", "550px", "785px"]}
+          fontSize={["3xl", "4xl", "5xl"]}
         >
           {/* <FaGithub color="#00b9e8" className="bounce" /> */}
         </Text>
@@ -88,5 +87,3 @@ const GithubGraph = () => {
 };
 
 export default GithubGraph;
-
-

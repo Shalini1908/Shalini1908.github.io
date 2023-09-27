@@ -15,7 +15,6 @@ import { TfiEmail } from "react-icons/tfi";
 
 const Contact = () => {
   return (
-    // display={["inline", "inline", "inline"]}
     <>
       <Box h={["1000px", "1050px", "700px"]}>
         <Text

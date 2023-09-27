@@ -17,7 +17,7 @@ export default function Banner() {
   return (
     <Flex
       w={"full"}
-      id="home" 
+      id="home"
       h={"100vh"}
       backgroundImage={
         "url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)"
@@ -58,52 +58,55 @@ export default function Banner() {
               }}
             />
           </Box>
-          <Stack direction={"row"} >
+          <Stack direction={"row"}>
             <IconButton
               as="a"
               href="https://github.com/Shalini1908"
-              bg={'white'}
+              bg={"white"}
               // rounded={'full'}
               color={"white"}
-         
               // fontSize={"40px"}
-              mt={["0px","",""]}
+              mt={["0px", "", ""]}
               target="_blank"
-              icon={<AiFillGithub color="black" fontSize={["38px","40px","40px"]}/>}
+              icon={
+                <AiFillGithub
+                  color="black"
+                  fontSize={["38px", "40px", "40px"]}
+                />
+              }
             />
             <IconButton
               as="a"
-     
               color={"black"}
-              mt={["-15px","",""]}
+              mt={["-15px", "", ""]}
               href="https://www.linkedin.com/in/shalini-singh-705277257/"
-     
               target="_blank"
-              icon={<FaLinkedinIn fontSize={["38px","40px","40px"]}/>}
+              icon={<FaLinkedinIn fontSize={["38px", "40px", "40px"]} />}
             />
           </Stack>
           <Box>
-            <a 
-            onClick={() => {
-              window.open(
-                "https://drive.google.com/file/d/1R3Tl9YQxLJC9n9J75845FFfPaJUc4Nuc/view?usp=sharing",
-                "blank"
-              );
-            }}
-            href={Resume}
-            download="fw20_0377-Shalini-Singh-Resume">
+            <a
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1R3Tl9YQxLJC9n9J75845FFfPaJUc4Nuc/view?usp=sharing",
+                  "blank"
+                );
+              }}
+              href={Resume}
+              download="fw20_0377-Shalini-Singh-Resume"
+            >
               <Button
                 ml={["5px", "2%", "8px"]}
-                mt={["-10px","20px",""]}
+                mt={["-10px", "20px", ""]}
                 p={["10px 10px", "18px 18px", "22px 22px"]}
                 fontSize={["sm", "md", "lg"]}
                 bg="white"
                 color="black"
                 border="none"
-                w={['100px',"120px","120px"]}
+                w={["100px", "120px", "120px"]}
                 h={"36px"}
                 variant="solid"
-                leftIcon={<DownloadIcon/>}
+                leftIcon={<DownloadIcon />}
                 _hover={{
                   background: "#1877f2",
                   color: "black",
