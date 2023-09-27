@@ -71,7 +71,7 @@ const Contact = () => {
                     <Text
                       color={"white"}
                       fontSize={["14px", "20px", "22px"]}
-                      ml={["8%", "", ""]}
+                      ml={["2%", "", ""]}
                       mt={["4px", "", ""]}
                     >
                       <a

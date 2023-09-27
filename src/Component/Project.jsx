@@ -15,7 +15,7 @@ function Project() {
       type: "Group",
       desc: "A clone of Myntra,Online Shopping Site for Fashion & Lifestyle.Fashion Expert brings you a variety lifestyle products.",
       techstack:
-        "React , Redux , JavaScript , Chakra UI, MongoDB , NodeJS , Express , Mongo Atlas",
+        "HTML, CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas",
       livelink: "https://trendsy.vercel.app/",
       gitlink: "https://github.com/Shalini1908/Trendsy-Myntra-Clone",
     },
@@ -25,7 +25,7 @@ function Project() {
       img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
       type: "Group",
       desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
-      techstack: "React , Redux , JavaScript , Chakra UI, react-reveal",
+      techstack:"HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal", 
       livelink: "https://wish-kart.vercel.app/",
       gitlink: "https://github.com/Rajendra3049/Wishkart",
     },
@@ -57,7 +57,7 @@ function Project() {
       type: "Group",
       desc: "A clone of Myntra,Online Shopping Site for Fashion & Lifestyle.Fashion Expert brings you a variety lifestyle products.",
       techstack:
-        "React , Redux , JavaScript , Chakra UI, MongoDB , NodeJS , Express , Mongo Atlas",
+        "HTML, CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas",
       livelink: "https://trendsy.vercel.app/",
       gitlink: "https://github.com/Shalini1908/Trendsy-Myntra-Clone",
     },
@@ -67,7 +67,7 @@ function Project() {
       img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
       type: "Group",
       desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
-      techstack: "React , Redux , JavaScript , Chakra UI, react-reveal",
+      techstack:"HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal", 
       livelink: "https://wish-kart.vercel.app/",
       gitlink: "https://github.com/Rajendra3049/Wishkart",
     },
@@ -127,7 +127,7 @@ function Project() {
       img: "https://user-images.githubusercontent.com/107534386/208698525-65d89ea4-3752-4277-957d-75a9efc64648.png",
       type: "Individual",
       desc: "A cloned website of Kindmeal , which is meatfree lifestyle platform",
-      techstack: "HTML, CSS, JavaScript,React,Chakra UI",
+      techstack: "HTML, CSS, JavaScript,React JS,Chakra UI",
       livelink: "https://glittering-lamington-a7bf4c.netlify.app/",
       gitlink: "https://github.com/Shalini1908/daring-idea-7674",
     },
@@ -142,6 +142,7 @@ function Project() {
         color="#ffffff"
         p="30px 0px"
         textAlign="center"
+        marginTop={["0","0","0","150px"]}
       >
         <Box w="85%" m="auto">
           <Box

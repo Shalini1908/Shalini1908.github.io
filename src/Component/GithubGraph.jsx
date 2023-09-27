@@ -19,11 +19,11 @@ const GithubGraph = () => {
         </Text>
         <Text
           mt={["-34px","-42px","-49px"]}
-          marginLeft={["275px", "498px", "800px"]}
+          marginLeft={["325px", "370px", "550px","785px"]}
 
           fontSize={["3xl", "4xl", "5xl"]} 
         >
-          <FaGithub color="#00b9e8" className="bounce" />
+          {/* <FaGithub color="#00b9e8" className="bounce" /> */}
         </Text>
       </Heading>
 
@@ -49,7 +49,7 @@ const GithubGraph = () => {
             src="https://github-readme-streak-stats.herokuapp.com/?user=Shalini1908&theme=algolia"
           />
         </Box>
-        <Grid mt={"50px"} mb={"50px"}>
+        {/* <Grid mt={"50px"} mb={"50px"}>
           <GridItem>
             <Image
               ml={["28px", "20px", "160px"]}
@@ -60,7 +60,7 @@ const GithubGraph = () => {
               src="https://github-readme-activity-graph.cyclic.app/graph?username=Shalini1908&theme=arctic"
             />
           </GridItem>
-        </Grid>
+        </Grid> */}
 
         <Box
           border={"2px solid white"}
