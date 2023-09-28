@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavLink from "../Component/Navlink";
-import Resume from "../images/fw20_0377-Shalini-Singh-Resume.pdf";
+import Resume from "../images/Shalini_Singh _fw20_0377.pdf";
 import { Link } from "react-scroll";
 
 const links = [
@@ -96,7 +96,7 @@ export default function Simple() {
                         );
                       }}
                       href={Resume}
-                      download="fw20_0377-Shalini-Singh-Resume"
+                      download="Shalini_Singh _fw20_0377.pdf"
                     >
                       <Text fontSize={["lg", "xl", "2xl"]} cursor={"pointer"}>
                         {link.name}

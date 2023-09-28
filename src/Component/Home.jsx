@@ -11,7 +11,7 @@ import {
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
-import Resume from "../images/fw20_0377-Shalini-Singh-Resume.pdf";
+import Resume from "../images/Shalini_Singh _fw20_0377.pdf";
 import { DownloadIcon } from "@chakra-ui/icons";
 export default function Banner() {
   return (
@@ -93,7 +93,7 @@ export default function Banner() {
                 );
               }}
               href={Resume}
-              download="fw20_0377-Shalini-Singh-Resume"
+              download="Shalini_Singh _fw20_0377.pdf"
             >
               <Button
                 ml={["5px", "2%", "8px"]}
