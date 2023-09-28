@@ -90,7 +90,8 @@ export default function Simple() {
                     <a
                       onClick={() => {
                         window.open(
-                          "https://drive.google.com/file/d/1R3Tl9YQxLJC9n9J75845FFfPaJUc4Nuc/view?usp=sharing",
+                          "https://drive.google.com/file/d/17M5DxELGX6P0bhxSK1wOAUXzHd-BDdFI/view?usp=sharing",
+                          
                           "blank"
                         );
                       }}
