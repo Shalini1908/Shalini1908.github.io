@@ -62,7 +62,7 @@ function About() {
             <Text
               color="white"
               textAlign={["justify", "justify", "justify"]}
-              fontSize={["18px", "18px", "18px"]}
+              fontSize={["18px", "18px", "20px"]}
               lineHeight={["34px", "34px", "45px"]}
             >
               As a highly motivated and innovative full-stack web developer, I
