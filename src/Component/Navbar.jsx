@@ -91,7 +91,7 @@ export default function Simple() {
                     <a
                       onClick={() => {
                         window.open(
-                          "https://drive.google.com/file/d/17M5DxELGX6P0bhxSK1wOAUXzHd-BDdFI/view?usp=sharing",
+                          "https://drive.google.com/file/d/1675zqFUE5c07JACCIZ99Unz9458z-orf/view?usp=sharing",
                           
                           "blank"
                         );
@@ -128,7 +128,7 @@ export default function Simple() {
                     <a
                       onClick={() => {
                         window.open(
-                          "https://drive.google.com/file/d/17M5DxELGX6P0bhxSK1wOAUXzHd-BDdFI/view?usp=sharing",
+                          "https://drive.google.com/file/d/1675zqFUE5c07JACCIZ99Unz9458z-orf/view?usp=sharing",
                           "blank"
                         );
                       }}
