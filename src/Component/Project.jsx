@@ -154,7 +154,7 @@ function Project() {
             fontWeight="400"
           >
             <Text
-              ml={["110px", "200px", "490px"]}
+              ml={["110px", "235px", "240px","460px"]}
               color={"#00b9e8"}
               fontSize={["3xl", "4xl", "5xl"]}
             >

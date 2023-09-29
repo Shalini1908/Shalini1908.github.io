@@ -6,6 +6,7 @@ import {
   Box,
   VStack,
   IconButton,
+  Image,
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
@@ -13,24 +14,38 @@ import { FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import Resume from "../images/Shalini_Singh _fw20_0377.pdf";
 import { DownloadIcon } from "@chakra-ui/icons";
+import profile_img from "../images/profile_img.png";
+
 export default function Banner() {
+  const isMobile = useBreakpointValue({ base: true, lg: false });
+
   return (
     <Flex
       w={"full"}
       id="home"
-      h={"100vh"}
-      backgroundImage={
-        "url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)"
-      }
-      backgroundSize={"cover"}
-      backgroundColor={"black"}
-      backgroundPosition={"center center"}
+      h={"auto"}
+      border={"0px solid yellow"}
+      flexDirection={isMobile ? "column" : "row"}
+      marginTop={["200px", "100px", "80px"]}
+      alignItems="center"
     >
+      {isMobile && (
+        <Box
+          border="0px solid red"
+          mt={["-115px", "20px", "30px", "70px"]}
+          ml={["20px", "20px", "50px"]}
+          h={"auto"}
+          width={["100%", "100%", "50%"]}
+          display="flex"
+          justifyContent="center"
+        >
+          <Image src={profile_img} maxW={["65%", "50%", "75%","100%"]} borderRadius={"20px"} />
+        </Box>
+      )}
       <VStack
         w={"full"}
         justify={"center"}
         px={useBreakpointValue({ base: 4, md: 8 })}
-        bgGradient={"linear(to-r, blackAlpha.600, transparent)"}
       >
         <Stack maxW={"2xl"} align={"center"} spacing={6}>
           <Text
@@ -44,7 +59,7 @@ export default function Banner() {
           </Text>
 
           <Box
-            color={"white"}
+            color={"#00ff2a"}
             fontSize={["18px", "24px", "32px"]}
             textAlign={["left", "left", "left"]}
             fontWeight={"500"}
@@ -63,10 +78,11 @@ export default function Banner() {
               as="a"
               href="https://github.com/Shalini1908"
               bg={"white"}
-              // rounded={'full'}
               color={"white"}
-              // fontSize={"40px"}
-              mt={["0px", "", ""]}
+              _hover={{
+                background: "#1877f2",
+                color: "black",
+              }}
               target="_blank"
               icon={
                 <AiFillGithub
@@ -78,9 +94,12 @@ export default function Banner() {
             <IconButton
               as="a"
               color={"black"}
-              mt={["-15px", "", ""]}
               href="https://www.linkedin.com/in/shalini-singh-705277257/"
               target="_blank"
+              _hover={{
+                background: "#1877f2",
+                color: "black",
+              }}
               icon={<FaLinkedinIn fontSize={["38px", "40px", "40px"]} />}
             />
           </Stack>
@@ -93,7 +112,7 @@ export default function Banner() {
                 );
               }}
               href={Resume}
-              download="Shalini_Singh _fw20_0377.pdf"
+              download="Shalini_Singh_fw20_0377.pdf"
             >
               <Button
                 ml={["5px", "2%", "8px"]}
@@ -118,6 +137,21 @@ export default function Banner() {
           </Box>
         </Stack>
       </VStack>
+      {!isMobile && (
+        <Box
+          border="0px solid red"
+          mt={["20px", "20px", "30px", "100px"]}
+          mr={["20px", "20px", "100px"]}
+          width={["200px", "300px", "550px"]}
+          h={"auto"}
+        >
+          <Image src={profile_img} maxW={["60%", "80%", "100%"]}   borderTopLeftRadius="90px"
+  borderTopRightRadius="10px"  
+  borderBottomRightRadius="50px" 
+  borderBottomLeftRadius="50px"
+ />
+        </Box>
+      )}
     </Flex>
   );
 }

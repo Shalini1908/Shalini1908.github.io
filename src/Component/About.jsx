@@ -1,14 +1,14 @@
 import React from "react";
 import { FaUser } from "react-icons/fa";
 import "../Css/about.css";
-import profile_img from "../images/profile_img.png";
+// import profile_img from "../images/profile_img.png";
 import LightSpeed from "react-reveal/LightSpeed";
 
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex,Text } from "@chakra-ui/react";
 
 function About() {
   return (
-    <Box id="about" width="80%" margin="auto" marginTop="100px">
+    <Box id="about" width="80%" margin="auto"  marginTop={["250px", "150px", "150px"]}>
       <Flex
         flexDirection={["row", "row", "row"]}
         justifyContent={["center", "center", "flex-start"]}
@@ -42,7 +42,7 @@ function About() {
         justifyContent={["center", "center", "space-evenly"]}
         alignItems={["center", "center", "center"]}
       >
-        <Box
+        {/* <Box
           width={["100%", "100%", "40%"]}
           border="0px solid yellow"
           mt={["20px", "20px", "0"]}
@@ -51,7 +51,7 @@ function About() {
           alignItems="center"
         >
           <Image src={profile_img} width="60%" borderRadius="50px" />
-        </Box>
+        </Box> */}
 
         <Box
           width={["100%", "100%", "60%"]}

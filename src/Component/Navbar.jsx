@@ -70,11 +70,12 @@ export default function Simple() {
             </Flex>
           </Link>
           <IconButton
-            ml={["65%", "72%", ""]}
+            ml={["65%", "78%", ""]}
             size={"sm"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon color={"black"} />}
             aria-label={"Open Menu"}
-            display={{ xl: "none" }}
+            // display={{ xl: "none" }}
+            display={{xl: "none" }} 
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
@@ -119,7 +120,7 @@ export default function Simple() {
         </Flex>
 
         {isOpen ? (
-          <Box pb={4} display={{ md: "none" }} ml="20px">
+          <Box pb={4} display={{ md: "block" }} ml="20px">
             <Stack as={"nav"} spacing={4}>
               {links.map((link, i) => (
                 <>

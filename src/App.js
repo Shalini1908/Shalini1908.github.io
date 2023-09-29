@@ -1,6 +1,4 @@
-
 import './App.css';
-
 import Simple from './Component/Navbar';
 import React from 'react';
 import Project from "./Component/Project";
@@ -13,10 +11,7 @@ import { useState,useEffect } from 'react';
 import Loader from './Component/Loader';
 import {AiFillHeart } from 'react-icons/ai'
 import { Text , Icon } from '@chakra-ui/react';
-
-
-// import Fade from "react-reveal/Fade";
-
+import Particle from './Component/Particle';
 
 
 function App() {
@@ -31,8 +26,9 @@ useEffect(() => {
 return isLoading ? (
     <Loader />
 ) : (
-  <div className="App" style={{backgroundColor:"black",width:"100%"}}>
+  <div className="App" style={{width:"100%"}}>
 {/* width={{ base: '100%', sm: '50%', md: '25%'}}  */}
+<Particle/>
 <Simple/>
  <Home/>
  <About/>
