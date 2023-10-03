@@ -107,7 +107,7 @@ export default function Banner() {
             <a
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1675zqFUE5c07JACCIZ99Unz9458z-orf/view?usp=sharing",
+                  "https://drive.google.com/file/d/1Dl8ehvTFD4s5mk5K7pBpNxdimSTgRBfY/view?usp=sharing",
                   "blank"
                 );
               }}
