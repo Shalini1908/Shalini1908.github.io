@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.e8eb0307.css",
-    "main.js": "/static/js/main.51a7365c.js",
+    "main.js": "/static/js/main.4c450588.js",
     "static/media/profile_img.png": "/static/media/profile_img.37edc58ca2ac8c30a77c.png",
-    "static/media/Shalini_Singh _fw20_0377.pdf": "/static/media/Shalini_Singh _fw20_0377.9af68b33cd09ccbdc01e.pdf",
+    "static/media/Shalini_Singh _fw20_0377.pdf": "/static/media/Shalini_Singh _fw20_0377.9cef646bf1f491b4e9eb.pdf",
     "static/media/sql.png": "/static/media/sql.be99f21a93dbdf9b0e20.png",
     "index.html": "/index.html",
     "main.e8eb0307.css.map": "/static/css/main.e8eb0307.css.map",
-    "main.51a7365c.js.map": "/static/js/main.51a7365c.js.map"
+    "main.4c450588.js.map": "/static/js/main.4c450588.js.map"
   },
   "entrypoints": [
     "static/css/main.e8eb0307.css",
-    "static/js/main.51a7365c.js"
+    "static/js/main.4c450588.js"
   ]
 }
