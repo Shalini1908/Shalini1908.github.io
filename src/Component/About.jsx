@@ -1,14 +1,17 @@
 import React from "react";
 import { FaUser } from "react-icons/fa";
 import "../Css/about.css";
-// import profile_img from "../images/profile_img.png";
-import LightSpeed from "react-reveal/LightSpeed";
 
-import { Box, Flex,Text } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 
 function About() {
   return (
-    <Box id="about" width="80%" margin="auto"  marginTop={["250px", "150px", "150px"]}>
+    <Box
+      id="about"
+      width="80%"
+      margin="auto"
+      marginTop={["250px", "150px", "150px"]}
+    >
       <Flex
         flexDirection={["row", "row", "row"]}
         justifyContent={["center", "center", "flex-start"]}
@@ -42,39 +45,29 @@ function About() {
         justifyContent={["center", "center", "space-evenly"]}
         alignItems={["center", "center", "center"]}
       >
-        {/* <Box
-          width={["100%", "100%", "40%"]}
-          border="0px solid yellow"
-          mt={["20px", "20px", "0"]}
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-        >
-          <Image src={profile_img} width="60%" borderRadius="50px" />
-        </Box> */}
-
         <Box
           width={["100%", "100%", "60%"]}
           border="0px solid orange"
           padding="18px"
         >
-          <LightSpeed right big>
-            <Text
-              color="white"
-              textAlign={["justify", "justify", "justify"]}
-              fontSize={["18px", "18px", "20px"]}
-              lineHeight={["34px", "34px", "45px"]}
-            >
-              As a highly motivated and innovative full-stack web developer, I
-              have a strong track record of building websites using the MERN
-              stack and a range of cutting-edge web technologies. My journey in
-              web development began in 2019, and I honed my skills further by
-              joining Masai School. I am deeply passionate about staying abreast
-              of the latest advancements in software development. With extensive
-              coding experience and a focus on problem-solving, I bring a wealth
-              of knowledge to every project.
-            </Text>
-          </LightSpeed>
+          <Text
+            color="white"
+            textAlign={["justify", "justify", "justify"]}
+            fontSize={["18px", "18px", "20px"]}
+            lineHeight={["34px", "34px", "45px"]}
+          >
+            Frontend-focused Full Stack Developer with 3 years of experience
+            building scalable, user-centric web applications using modern
+            JavaScript technologies. While I have hands-on experience across the
+            stack, my core strength lies in frontend development, where I
+            specialize in creating responsive, high-performance, and intuitive
+            user interfaces using React and the MERN stack. Since beginning my
+            development journey in 2019 and strengthening my foundation at Masai
+            School, I have continuously focused on improving problem-solving
+            skills and writing clean, maintainable, and production-ready code. I
+            am passionate about building seamless user experiences and staying
+            aligned with evolving industry standards.
+          </Text>
         </Box>
       </Flex>
     </Box>

@@ -1,7 +1,4 @@
-import React from "react";
-
 import { Box, Grid, GridItem, Heading, Text } from "@chakra-ui/react";
-// import "../styles/common.css"
 import {
   FaHtml5,
   FaReact,
@@ -12,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { SlSettings } from "react-icons/sl";
 import { GrMysql } from "react-icons/gr";
-import RubberBand from "react-reveal/RubberBand";
+import { AttentionSeeker } from "react-awesome-reveal";
 import {
   SiRedux,
   SiMongodb,
@@ -20,10 +17,7 @@ import {
   SiAdobephotoshop,
   SiChakraui,
   SiTypescript,
-  SiPostgresql,
   SiGraphql,
-  SiRedis,
-  SiSocketdotio,
 } from "react-icons/si";
 import { Image } from "@chakra-ui/react";
 import liquibase from "../images/Liquibase.png";
@@ -74,10 +68,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <FaHtml5 color={"#e44f26"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text
@@ -101,10 +95,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <FaCss3 color={"#0066b6"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#0066b6"}>Css</Text>
@@ -122,10 +116,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <FaJs color={"#e4d04b"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#e4d04b"}>JavaScript</Text>
@@ -143,10 +137,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <FaReact color={"#00cdf2"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#00cdf2"}>React</Text>
@@ -166,10 +160,10 @@ const Skills = () => {
                 mt={["10px", "", "", ""]}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <SiTypescript color={"#48aaeb"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text
@@ -193,10 +187,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <FaNodeJs color={"#679d5a"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#679d5a"}>Node JS</Text>
@@ -214,10 +208,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <SiRedux color={"#764abc"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#764abc"}>Redux</Text>
@@ -235,10 +229,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <SiMongodb color={"#4ba13e"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#4ba13e"}>MongoDB</Text>
@@ -257,10 +251,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <SiExpress color={"#d7c447"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#d7c447"}>Express JS</Text>
@@ -280,10 +274,10 @@ const Skills = () => {
                 mt={["9px", "", "", ""]}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <SiAdobephotoshop color="#0070ba" />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"white"} ml={["-16px", "-23px", "0px", "0px"]}>
@@ -303,10 +297,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <FaBootstrap color={"#7910f2"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#7910f2"}>Bootstrap</Text>
@@ -324,10 +318,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <SiChakraui color={"#44bcb9"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#44bcb9"}>Chakar UI</Text>
@@ -344,35 +338,15 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
-                  {/* <PiFileSql color={"#172b4d"} /> */}
                   <Image src={sql} width={"95px"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"white"}>SQL</Text>
             </GridItem>
-            <GridItem
-              border={"0px solid white"}
-              justifyContent={"center"}
-              p={1}
-            >
-              <Text
-                border={"0px solid red"}
-                fontSize={"90px"}
-                w={["60%", "69%", "80%", "60%", "50%"]}
-                m={"auto"}
-                textAlign={"center"}
-              >
-                <RubberBand>
-                  {" "}
-                  <SiPostgresql color={"#172b4d"} />
-                </RubberBand>
-              </Text>
 
-              <Text color={"white"}>Postgresql</Text>
-            </GridItem>
             <GridItem
               border={"0px solid white"}
               justifyContent={"center"}
@@ -385,10 +359,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <GrMysql color={"#00618b"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#00618b"}>MySQL</Text>
@@ -405,10 +379,10 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   <SiGraphql color={"#e10098"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#e10098"}>Graphql</Text>
@@ -425,75 +399,14 @@ const Skills = () => {
                 m={"auto"}
                 textAlign={"center"}
               >
-                <RubberBand>
+                <AttentionSeeker effect="rubberBand">
                   {" "}
                   {/* <SiGraphql color={"#e10098"} /> */}
                   <Image src={sequelize} w={"95px"} />
-                </RubberBand>
+                </AttentionSeeker>
               </Text>
 
               <Text color={"#1e7abe"}>Sequelize</Text>
-            </GridItem>
-            <GridItem
-              border={"0px solid white"}
-              justifyContent={"center"}
-              p={1}
-            >
-              <Text
-                border={"0px solid red"}
-                fontSize={"90px"}
-                w={["60%", "69%", "80%", "60%", "50%"]}
-                m={"auto"}
-                textAlign={"center"}
-              >
-                <RubberBand>
-                  {" "}
-                  <SiRedis color={"#d92f27"} />
-                </RubberBand>
-              </Text>
-
-              <Text color={"#d92f27"}>Redis</Text>
-            </GridItem>
-            <GridItem
-              border={"0px solid white"}
-              justifyContent={"center"}
-              p={1}
-            >
-              <Text
-                border={"0px solid red"}
-                fontSize={"90px"}
-                w={["60%", "69%", "80%", "60%", "50%"]}
-                m={"auto"}
-                textAlign={"center"}
-              >
-                <RubberBand>
-                  {" "}
-                  <SiSocketdotio color={"white"} />
-                </RubberBand>
-              </Text>
-
-              <Text color={"white"}>Socket IO</Text>
-            </GridItem>
-            <GridItem
-              border={"0px solid white"}
-              justifyContent={"center"}
-              p={1}
-            >
-              <Text
-                border={"0px solid red"}
-                fontSize={"90px"}
-                w={["60%", "69%", "80%", "60%", "50%"]}
-                m={"auto"}
-                textAlign={"center"}
-              >
-                <RubberBand>
-                  {" "}
-                  {/* <SiLiquibase color={"#e10098"} /> */}
-                  <Image src={liquibase} width={"95px"} margin={"auto"} />
-                </RubberBand>
-              </Text>
-
-              <Text color={"#ff3c00"}>Liquibase</Text>
             </GridItem>
           </Grid>
         </Box>

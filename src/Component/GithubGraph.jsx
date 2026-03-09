@@ -1,9 +1,5 @@
-import React from "react";
-import { Image, Box, Heading, Text } from "@chakra-ui/react";
+import { Image, Box, Heading, Text , Stack , Link } from "@chakra-ui/react";
 import GitHubCalendar from "react-github-calendar";
-// import { FaGithub } from "react-icons/fa";
-
-// {
 
 const GithubGraph = () => {
   return (
@@ -22,7 +18,6 @@ const GithubGraph = () => {
           marginLeft={["325px", "370px", "550px", "785px"]}
           fontSize={["3xl", "4xl", "5xl"]}
         >
-          {/* <FaGithub color="#00b9e8" className="bounce" /> */}
         </Text>
       </Heading>
 
@@ -37,7 +32,7 @@ const GithubGraph = () => {
             width={["85%", "95%", "50%"]}
             mt={["-30px", "30px", "30px"]}
             height={"300px"}
-            src="https://github-readme-stats.vercel.app/api?username=Shalini1908&show_icons=true&locale=en&theme=algolia"
+            src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shalini1908&show_icons=true&theme=algolia"
           />
 
           <Image
@@ -45,22 +40,9 @@ const GithubGraph = () => {
             width={["85%", "95%", "50%"]}
             mt={["-130px", "8px", "30px"]}
             height={"300px"}
-            src="https://github-readme-streak-stats.herokuapp.com/?user=Shalini1908&theme=algolia"
+            src="https://streak-stats.demolab.com/?user=Shalini1908&theme=algolia"
           />
         </Box>
-        {/* <Grid mt={"50px"} mb={"50px"}>
-          <GridItem>
-            <Image
-              ml={["28px", "20px", "160px"]}
-              mt={["-105px", "-30px", "-20px"]}
-              width={["85%", "95%", "78%"]}
-              border={"1px solid white"}
-              borderRadius={"10px"}
-              src="https://github-readme-activity-graph.cyclic.app/graph?username=Shalini1908&theme=arctic"
-            />
-          </GridItem>
-        </Grid> */}
-
         <Box
           border={"2px solid white"}
           borderRadius={"10px"}
@@ -81,6 +63,18 @@ const GithubGraph = () => {
             color={"#1877f2"}
           />
         </Box>
+      {/* GitHub Profile Link */}
+      <Stack align="center" mt={8}>
+        <Link
+          href="https://github.com/Shalini1908"
+          isExternal
+          fontSize="lg"
+          color="#00b9e8"
+          fontWeight="500"
+        >
+          View My GitHub Profile
+        </Link>
+      </Stack>
       </Box>
     </Box>
   );
