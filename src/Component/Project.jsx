@@ -9,27 +9,27 @@ function Project() {
   const [viewmore, setViewmore] = useState(false);
 
   let initialdata = [
-    {
-      name: "Trendsy",
-      img: "https://user-images.githubusercontent.com/107534386/221490495-b11efa2e-2992-497d-bf90-be48e22022c2.png",
-      type: "Group",
-      desc: "A clone of Myntra,Online Shopping Site for Fashion & Lifestyle.Fashion Expert brings you a variety lifestyle products.",
-      techstack:
-        "HTML, CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas",
-      livelink: "https://trendsy.vercel.app/",
-      gitlink: "https://github.com/Shalini1908/Trendsy-Myntra-Clone",
-    },
+    // {
+    //   name: "Trendsy",
+    //   img: "https://user-images.githubusercontent.com/107534386/221490495-b11efa2e-2992-497d-bf90-be48e22022c2.png",
+    //   type: "Group",
+    //   desc: "A clone of Myntra,Online Shopping Site for Fashion & Lifestyle.Fashion Expert brings you a variety lifestyle products.",
+    //   techstack:
+    //     "HTML, CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas",
+    //   livelink: "https://trendsy.vercel.app/",
+    //   gitlink: "https://github.com/Shalini1908/Trendsy-Myntra-Clone",
+    // },
 
-    {
-      name: "WishKart",
-      img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
-      type: "Group",
-      desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
-      techstack:
-        "HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal",
-      livelink: "https://wish-kart.vercel.app/",
-      gitlink: "https://github.com/Rajendra3049/Wishkart",
-    },
+    // {
+    //   name: "WishKart",
+    //   img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
+    //   type: "Group",
+    //   desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
+    //   techstack:
+    //     "HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal",
+    //   livelink: "https://wish-kart.vercel.app/",
+    //   gitlink: "https://github.com/Rajendra3049/Wishkart",
+    // },
     {
       name: "MixMate",
       img: "https://user-images.githubusercontent.com/107534386/233964929-968a41d8-3d98-4f7d-a4a5-7b95ca566ccf.png",
@@ -49,30 +49,39 @@ function Project() {
       livelink: "https://courageous-macaron-4af75e.netlify.app/",
       gitlink: "https://github.com/Shalini1908/Netflix/tree/master",
     },
+        {
+      name: "YouTube",
+      img: "https://user-images.githubusercontent.com/107534386/214225604-805f9f4e-1c5d-43d6-a4d5-d8bd19df7aeb.png",
+      type: "Individual",
+      desc: "Youtube App created by html , css and javascript, where user can search videos , see recommended videos and default videos also",
+      techstack: "HTML, CSS, JavaScript",
+      livelink: "https://youtube-lyart.vercel.app/",
+      gitlink: "https://github.com/Shalini1908/Youtube",
+    },
   ];
 
   let projectdata = [
-    {
-      name: "Trendsy",
-      img: "https://user-images.githubusercontent.com/107534386/221490495-b11efa2e-2992-497d-bf90-be48e22022c2.png",
-      type: "Group",
-      desc: "A clone of Myntra,Online Shopping Site for Fashion & Lifestyle.Fashion Expert brings you a variety lifestyle products.",
-      techstack:
-        "HTML, CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas",
-      livelink: "https://trendsy.vercel.app/",
-      gitlink: "https://github.com/Shalini1908/Trendsy-Myntra-Clone",
-    },
+    // {
+    //   name: "Trendsy",
+    //   img: "https://user-images.githubusercontent.com/107534386/221490495-b11efa2e-2992-497d-bf90-be48e22022c2.png",
+    //   type: "Group",
+    //   desc: "A clone of Myntra,Online Shopping Site for Fashion & Lifestyle.Fashion Expert brings you a variety lifestyle products.",
+    //   techstack:
+    //     "HTML, CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas",
+    //   livelink: "https://trendsy.vercel.app/",
+    //   gitlink: "https://github.com/Shalini1908/Trendsy-Myntra-Clone",
+    // },
 
-    {
-      name: "WishKart",
-      img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
-      type: "Group",
-      desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
-      techstack:
-        "HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal",
-      livelink: "https://wish-kart.vercel.app/",
-      gitlink: "https://github.com/Rajendra3049/Wishkart",
-    },
+    // {
+    //   name: "WishKart",
+    //   img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
+    //   type: "Group",
+    //   desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
+    //   techstack:
+    //     "HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal",
+    //   livelink: "https://wish-kart.vercel.app/",
+    //   gitlink: "https://github.com/Rajendra3049/Wishkart",
+    // },
 
     {
       name: "MixMate",
@@ -104,15 +113,15 @@ function Project() {
       gitlink: "https://github.com/Shalini1908/Youtube",
     },
 
-    {
-      name: "Crystalvillas",
-      img: "https://user-images.githubusercontent.com/107534386/210261964-a5cb2fa2-1162-4ceb-bcb6-6229e8eb2448.png",
-      type: "Group",
-      desc: "Cloned website of Tripvillas , a holiday homes - villas, apartments & homestays booking website ",
-      techstack: "HTML, CSS, JavaScript",
-      livelink: "https://venerable-beignet-fdbc14.netlify.app/",
-      gitlink: "https://github.com/Shalini1908/-faithful-gun-126",
-    },
+    // {
+    //   name: "Crystalvillas",
+    //   img: "https://user-images.githubusercontent.com/107534386/210261964-a5cb2fa2-1162-4ceb-bcb6-6229e8eb2448.png",
+    //   type: "Group",
+    //   desc: "Cloned website of Tripvillas , a holiday homes - villas, apartments & homestays booking website ",
+    //   techstack: "HTML, CSS, JavaScript",
+    //   livelink: "https://venerable-beignet-fdbc14.netlify.app/",
+    //   gitlink: "https://github.com/Shalini1908/-faithful-gun-126",
+    // },
 
     {
       name: "Bellavita",
