@@ -12,7 +12,7 @@ import {
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
-import Resume from "../images/Shalini_Singh _fw20_0377.pdf";
+import Resume from "../images/Shalini_Singh_Resume.pdf";
 import { DownloadIcon } from "@chakra-ui/icons";
 import profile_img from "../images/profile_img.png";
 
@@ -107,12 +107,12 @@ export default function Banner() {
             <a
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1yZVeJ4SNWnga91yeooINuZeDYPNUU53J/view?usp=sharing",
+                  "https://drive.google.com/file/d/1gYJ6JOhe4_xTXzLskOcMAF-9qzGz9tKX/view?usp=sharing",
                   "blank"
                 );
               }}
               href={Resume}
-              download="Shalini_Singh_fw20_0377.pdf"
+              download="Shalini_Singh_Resume.pdf"
             >
               <Button
                 ml={["5px", "2%", "8px"]}

@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavLink from "../Component/Navlink";
-import Resume from "../images/Shalini_Singh _fw20_0377.pdf";
+import Resume from "../images/Shalini_Singh_Resume.pdf";
 import { Link } from "react-scroll";
 
 const links = [
@@ -91,13 +91,13 @@ export default function Simple() {
                     <a
                       onClick={() => {
                         window.open(
-                          "https://drive.google.com/file/d/1yZVeJ4SNWnga91yeooINuZeDYPNUU53J/view?usp=sharing",
+                          "https://drive.google.com/file/d/1gYJ6JOhe4_xTXzLskOcMAF-9qzGz9tKX/view?usp=sharing",
                           
                           "blank"
                         );
                       }}
                       href={Resume}
-                      download="Shalini_Singh _fw20_0377.pdf"
+                      download="Shalini_Singh_Resume.pdf"
                     >
                       <Text fontSize={["lg", "xl", "2xl"]} cursor={"pointer"}>
                         {link.name}
@@ -128,7 +128,7 @@ export default function Simple() {
                     <a
                       onClick={() => {
                         window.open(
-                          "https://drive.google.com/file/d/1yZVeJ4SNWnga91yeooINuZeDYPNUU53J/view?usp=sharing",
+                          "https://drive.google.com/file/d/1gYJ6JOhe4_xTXzLskOcMAF-9qzGz9tKX/view?usp=sharing",
                           "blank"
                         );
                       }}
